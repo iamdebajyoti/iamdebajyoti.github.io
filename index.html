@@ -8,6 +8,7 @@
 	@media screen, (max-width: 800px) {
 		body {
 			width: auto;
+			height: auto;
 
 		}
 		html {
@@ -41,17 +42,32 @@
 			color : white;
 			background-color : rgba(0,0,200,0.5);
 			width: auto;
-			padding: 10px;
-			border : 0px;
-			border-radius : 30%;
+			
+			/*margin: 15px;
+			margin-color: white;
+			padding-colour: green;*/
 			font-family: 'Courier New', Courier, 'Andale Mono', monospace;
-			font-size: 1.5em;
+			font-size: 2.5em;
 			font-weight: bold;
+			border-style: solid;
+			border-width: 20px;
+			border-color: red;
+			border-radius : 20%;
 		}
 		hr {
 			
 		}
-	}
+		a:link, a:visited, a:hover, a:active {
+			color: white;
+			text-decoration: none;
+			display: inline-block;
+			width: auto;
+			border-width: 10px;
+			border-style: solid;
+			padding: 20px;
+			}
+		}
+	
 
 
 	</style>
@@ -64,10 +80,14 @@
 	<br />
 	<hr />
 	<ul id="pageMenu">
-		<li class="pageMenuItems" style="margin-left:0%">About me</li>
-		<li class="pageMenuItems" style="margin-left:5%">My Portfolio</li>
-		<li class="pageMenuItems" style="margin-left:10%">My Blog</li>
-		<li class="pageMenuItems" style="margin-left:15%">Contact me</li>
+		<a href=./about target="_blank"><li class="pageMenuItems" style="margin-left:0%">About me</li></a>
+		<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
+		<a href=./portfolio target="_blank"><li class="pageMenuItems" style="margin-left:5%">My Portfolio</li></a>
+<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>		
+<li class="pageMenuItems" style="margin-left:10%">My Blog</li>
+	<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
+	<li class="pageMenuItems" style="margin-left:15%">Contact me</li>
+	<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
 		<li class="pageMenuItems" style="margin-left:20%">My Resume</li>
 
 	</ul>
@@ -82,3 +102,4 @@
 
 
 </html>
+    
