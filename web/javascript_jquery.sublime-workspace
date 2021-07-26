@@ -1,0 +1,249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selec",
+				"selection"
+			],
+			[
+				"conte",
+				"contextMenuAction"
+			],
+			[
+				"fontSize",
+				"style_fontSize\t = 'large' Style CSS"
+			],
+			[
+				"f",
+				"font\t = 'small-caption' Style CSS"
+			],
+			[
+				"document",
+				"document\t: Document Window"
+			],
+			[
+				"docu",
+				"document\t: Document Window"
+			],
+			[
+				"docum",
+				"document"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mdn",
+				"MDN Search..."
+			],
+			[
+				"auto",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"kite",
+				"Kite: Package Settings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ddutta8/Google Drive/coding/web/js_jq"
+	],
+	"file_history":
+	[
+		"/C/Users/ddutta8/Google Drive/coding/web/firefox/contextmenu/manifest.json",
+		"/C/Users/ddutta8/Google Drive/coding/web/firefox/borderify/manifest.json",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/coding/web/firefox/borderify/borderify.js",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/auto_save.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/auto-save/Default (Windows).sublime-keymap",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/JSONReindent.sublime-settings",
+		"/C/Users/ddutta8/AppData/Local/Temp/testing-kite.py",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/Base File.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/ddutta8/AppData/Local/Temp/kite_tutorial.py",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/KiteSublime/KiteSublime.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/KiteSublime.sublime-settings",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/KiteSublime/Default.sublime-keymap",
+		"/C/Users/ddutta8/Google Drive/apps/Sublime Text Build 3211 x64/Data/Packages/User/KiteSublime/KiteSublime.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "javascript_jquery.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

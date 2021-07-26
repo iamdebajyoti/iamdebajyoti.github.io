@@ -1,0 +1,19 @@
+{
+    "name": "myDesk",
+    "short_name": "myDesk",
+    "description": "Open all your favourite sites under one multi-layered tab",
+    "author": "Debajyoti Dutta",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "activeTab"
+    ],
+    "browser_action": {},
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

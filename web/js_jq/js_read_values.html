@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- loading JQuery library -->
+    <style>
+        html {
+            border: blueviolet 3px solid;
+            height: 99%;;
+            overflow: hidden;
+            padding: auto;
+            
+                    }
+        body {
+            border-image: linear-gradient(red, black);
+            border-width: 10px;
+            margin: auto;
+            padding-top: 1%;
+            width: 60%;
+            overflow: auto;
+            height: 97%;
+            
+        }
+    </style>
+    <script src="./lib/jquery-3.5.1.min.js"></script>
+    <script src="./data/values.js"></script>
+
+    <script>
+        function readValuesFromJSONfile() {
+            // // alert("reached");
+            // var catchValues = document.getElementById("values");
+            // // alert(catchValues);
+            // var displayString = "";
+            // for (i = 0; i < (catchValues.length - 1); i++) {
+            //     displayString = "<p>";
+            //     if (catchValues[i] = ",") {
+            //         displayString = displayString + " ";
+            //     } else if (catchValues[i] = ";") {
+            //         displayString = displayString + "</p>";
+            //     } else {
+            //         displayString = displayString + catchValues[i];
+            //     }
+            // }
+            // document.getElementById("displayValues").innerHTML = testData;
+            // document.write(testData);
+            console.log(testData);
+            // var parsedData = JSON.parse(testData);
+            // document.getElementById("displayValues").innerHTML = parsedData.download_format;
+            document.getElementById("displayValues").innerHTML = testData.length;
+            for (i = 0; i < (testData.length); i++) {
+                viewKeys = Object.keys(testData[i]);
+                viewKeys.forEach(element => {
+                    if (element = 'url') {
+
+                    }
+                });
+                console.log(viewKeys);
+                viewValues = Object.values(testData[i]);
+                console.log(viewValues);
+                viewDataAsJSON = JSON.stringify(testData[i]);
+                console.log(viewDataAsJSON);
+
+                document.getElementById("displayValues").innerHTML = (viewKeys) + "<br />" + (viewValues) + "<br />" + (viewDataAsJSON);
+
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <span> The values appear below</span>
+    <p id="displayValues" onclick="readValuesFromJSONfile()">Click</p>
+
+
+</body>
+
+</html>
+

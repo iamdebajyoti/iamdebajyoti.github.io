@@ -1,0 +1,15 @@
+@font-face { 
+    font-family: 'PTSans-Regular'; 
+    src: url('../font/PT_Sans/PTSans-Regular.ttf') format('woff'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+body {
+    font-family: 'PTSans-Regular', sans-serif;
+    padding: 2rem;;
+}
+/* circle {
+    stroke: #009def;
+    stroke-width: 1;
+    fill: #a23456;
+} */
