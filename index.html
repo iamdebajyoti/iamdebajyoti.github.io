@@ -17,11 +17,10 @@
 		}
 		#selfie {
 			opacity: 1.0;
-			
-			width: 300px;
-			height: 300px;
-			
-			border-radius: 50%;
+			/* the following 3 lines gives the oblong shape of the selfie image */
+			width: 100px;
+			height: 150px;
+			border-radius: 100%;
 			/* border-radius: 200px; */
 			border-color: green;
 			border-style: solid;
@@ -30,6 +29,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 150px;
+			
 		}
 		#pageMenu {
 			display: block;
@@ -78,19 +78,20 @@
 
 </head>
 <body>
-	<img id="selfie" src="DEB_20180928.jpg" alt="selfie">
+	<!-- <img id="selfie" alt="selfie"> -->
+	<img id="selfie" src="DEB_20180928.jpg" alt="Deb">
 	<br />
 	<br />
 	<hr />
 	<ul id="pageMenu">
 		<a href=./about target="_blank"><li class="pageMenuItems" style="margin-left:0%">About me</li></a>
-		<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
+		<li style="display:list-item; list-style-type:none">&nbsp&nbsp&nbsp</li>
 		<a href=./portfolio target="_blank"><li class="pageMenuItems" style="margin-left:5%">My Portfolio</li></a>
-<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>		
+<li style="display:list-item; list-style-type:none">&nbsp&nbsp&nbsp</li>		
 <li class="pageMenuItems" style="margin-left:10%">My Blog</li>
-	<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
+	<li style="display:list-item; list-style-type:none">&nbsp&nbsp&nbsp</li>
 	<li class="pageMenuItems" style="margin-left:15%">Contact me</li>
-	<li style="display:list-item list-style-type:none">&nbsp&nbsp&nbsp</li>
+	<li style="display:list-item; list-style-type:none">&nbsp&nbsp&nbsp</li>
 		<li class="pageMenuItems" style="margin-left:20%">My Resume</li>
 
 	</ul>
