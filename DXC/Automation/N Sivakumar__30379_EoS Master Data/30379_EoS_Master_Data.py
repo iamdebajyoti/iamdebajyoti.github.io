@@ -1,4 +1,5 @@
 
+from datetime import datetime
 from numpy import datetime64
 import pandas as pd
 import numpy as np
@@ -10,34 +11,37 @@ sample_file_path = r"C:\Users\ddutta8\OneDrive - DXC Production\Documents\DXC_Au
 sample_file_sheets = pd.ExcelFile(os.path.join(sample_file_path))
 # print(*sample_file_sheets.sheet_names, sep='\n')
 
-# print('\n\n')
-# df_Sw = pd.DataFrame()
-# df_Sw = pd.read_excel(os.path.join(sample_file_path), sheet_name="Software Title", usecols=["ProductName","EndOfLifeDate"], index_col=None, engine="openpyxl", header=0)
-# # print(df_Sw.shape, df_Sw.columns, df_Sw.info())
-# print('\n\n')
-# # df_Sw["Check"] = (df_Sw["EndOfLifeDate"].str.isnumeric())
-# # df_Sw .dropna(how='any', inplace=True)
-# df_Sw = df_Sw[df_Sw["EndOfLifeDate"].notnull()]
-# df_Sw = df_Sw[df_Sw["EndOfLifeDate"]
-# df_Sw["EndOfLifeDate"].apply(np.isreal)
-# # df_Sw["EndOfLifeDate"] = df_Sw["EndOfLifeDate"].astype('datetime64')
+print('\n\n')
+df_Sw = pd.DataFrame()
+df_Sw = pd.read_excel(os.path.join(sample_file_path), sheet_name="Software Title", usecols=["ProductName","EndOfLifeDate"], index_col=None, engine="openpyxl", header=0)
 # print(df_Sw.shape, df_Sw.columns, df_Sw.info())
 # print('\n\n')
-# # print(df_Sw.groupby("EndOfLifeDate").groups.keys(), df_Sw.groupby("EndOfLifeDate").groups.values())
+print(df_Sw.shape, df_Sw.columns, df_Sw.info())
+# df_Sw["Check"] = (df_Sw["EndOfLifeDate"].str.isnumeric())
+# df_Sw .dropna(how='any', inplace=True)
+df_Sw = df_Sw[df_Sw["EndOfLifeDate"].notnull()]
+# df_Sw = df_Sw[df_Sw["EndOfLifeDate"]
+# df_Sw["EndOfLifeDate"].apply(np.isreal)
+# print(df_Sw.shape, df_Sw.columns, df_Sw.info())
+print(df_Sw["EndOfLifeDate"].
+# print(df_Sw.shape, df_Sw.columns, df_Sw.info())
+
+# print(check())
+# print(df_Sw.groupby("EndOfLifeDate").groups.keys(), df_Sw.groupby("EndOfLifeDate").groups.values())
 # for _groups_ in df_Sw.groupby("EndOfLifeDate").groups:
 #     print(type(_groups_), _groups_)
 
 # print(df_Sw.info())
 
-df_SOE = pd.DataFrame()
-df_SOE = pd.read_excel(os.path.join(sample_file_path), sheet_name="SOE Application", usecols=["LATEST SOFTWARE NAME","GENERAL SUPPORT END DATE"], index_col=None, engine="openpyxl", header=0,)
-df_SOE.rename(columns={"LATEST SOFTWARE NAME":"ProductName","GENERAL SUPPORT END DATE":"EndOfLifeDate"}, inplace=True)
-# print(df_SOE.columns, df_SOE.shape, df_SOE.info())
-df_SOE["EndOfLifeDate"].dropna(inplace=True)
-print(df_SOE["EndOfLifeDate"].iloc[0:50])
-print(df_SOE["EndOfLifeDate"].iloc[50:100])
-print(df_SOE["EndOfLifeDate"].iloc[100:150])
-print(df_SOE["EndOfLifeDate"].iloc[150:])
+# df_SOE = pd.DataFrame()
+# df_SOE = pd.read_excel(os.path.join(sample_file_path), sheet_name="SOE Application", usecols=["LATEST SOFTWARE NAME","GENERAL SUPPORT END DATE"], index_col=None, engine="openpyxl", header=0,)
+# df_SOE.rename(columns={"LATEST SOFTWARE NAME":"ProductName","GENERAL SUPPORT END DATE":"EndOfLifeDate"}, inplace=True)
+# # print(df_SOE.columns, df_SOE.shape, df_SOE.info())
+# df_SOE["EndOfLifeDate"].dropna(inplace=True)
+# print(df_SOE["EndOfLifeDate"].iloc[0:50])
+# print(df_SOE["EndOfLifeDate"].iloc[50:100])
+# print(df_SOE["EndOfLifeDate"].iloc[100:150])
+# print(df_SOE["EndOfLifeDate"].iloc[150:])
 
 # print(df_SOE.columns, df_SOE.shape, df_SOE.info())
 
