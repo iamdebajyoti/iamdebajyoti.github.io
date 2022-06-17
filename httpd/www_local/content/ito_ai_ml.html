@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITO AI ML</title>
+
+    <style>
+
+    </style>
+    <!--
+        <link rel="stylesheet" href="mermaid_js/gantt.css">
+        <script src="mermaid_js/mermaid.min.js"></script>
+        -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+
+
+</head>
+
+<body>
+<h1>Testing</h1>
+    <div class="mermaid">
+
+      requirementDiagram
+        requirement test_req {
+            id:1
+            text: creation of the data catalog
+            risk:medium
+            verifymethod:test
+
+        }
+        element test_entity {
+
+        }
+        test_req <- copies - test_entity
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<FlatButton@ButtonBehavior+Label>:
+    font_size: 16
+
+<SigninWindow>:
+    id: main_win
+    orientation: "vertical"
+    spacing: 10
+    space_x: self.size[0]/3
+    canvas.before:
+        Color:
+            rgba: (1,1,1,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgba: (.06,.45,.95,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: "Access Control"
+            # color: "black"
+            size_hint_x: .9
+        FlatButton:
+            text: "X"
+            size_hint_x: .1
+    BoxLayout:
+        orientation: "vertical"
+        padding: main_win.space_x, 10
+        # spacing: 20 #this line distorts the widget positioning in KIVY 1.0. To fix it we add Labels with spacing properties
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 10
+            size_hint_y: None
+            height: 100
+            Label:
+                id: login_info
+                text: "show"
+                # color: "red"
+                markup: True
+            TextInput:
+                id: username_field
+                hint_text: "Enter username"
+                multiline: False
+                focus: True
+                on_text_validate: pwd_field.focus = True 
+            TextInput:
+                id: pwd_field
+                hint_text: "Enter password"
+                multiline: False
+                password: True
+                on_text_validate: root.validate_user()
+        Label:
+            id: dummy1
+            size_hint_y: None
+            height: 40
+        Button:
+            text: "Signin"
+            color: "white"
+            background_color: (.06,.45,.95,1)
+            background_normal: ""
+            size_hint_y: None
+            height: 40
+            on_release: root.validate_user()
+        Label:
+            id: dummy2

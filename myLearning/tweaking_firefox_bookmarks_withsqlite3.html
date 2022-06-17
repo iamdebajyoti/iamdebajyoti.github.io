@@ -1,0 +1,8 @@
+<html>
+  <head>
+    </head>
+  <body>
+    SELECT * FROM moz_bookmarks WHERE title = 'Entertainment'
+SELECT * FROM moz_bookmarks WHERE parent IN (SELECT id FROM moz_bookmarks WHERE title = 'Entertainment' ) GROUP BY parent
+    </body>
+</html>

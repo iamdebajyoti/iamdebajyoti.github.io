@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      input[type="button"] {
+        width: 250px;
+        height: 25px;
+        background-color: #09666d;
+        border: none;
+        color: white;
+        padding: 30px, 30px, 30px, 30px;
+        text-decoration: double;
+        /* margin: 5px; */
+        cursor: pointer;
+        font: 20px sans-serif;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="mermaid_js/gantt.css" />
+    <script src="mermaid_js/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+    <title>Mermaid</title>
+  </head>
+
+  <body>
+    <input type="button" onclick="location.href='../#!index.md';" value="Back to Home page" />
+
+    <div class="mermaid">
+      gantt dateFormat YYYY-MM-DD 
+      title Organize using Gantt 
+      section A
+      section CBA
+        Completed task :done, des1, 2021-01-06, 3d 
+        Active task : active, des2, 2021-12-09, 3d 
+        Future task : des3, after des2, 5d 
+        Future task2 : des4, after des3, 5d 
+        
+        section DXC 
+        Completed task:done, des12, 2021-11-06, 3d
+        Active task:active, des13, 2021-12-09, 2022-01-09 
+        Future task: des14, after des13, 5d 
+        Future task2 : des15, after des14, 5d 
+        Cloud 101:active, des20211213, 2021-12-13, 1d
+    </div>
+    <div class="mermaid">
+      gantt dateFormat YYYYMMMDD todayMarker
+      stroke-width:5px,stroke:#0f0,opacity:0.5 
+      axisFormat %Y-%b-%d---%I:%M
+      section Mandatory Trainings 
+      Cloud 101:active, des20211213, 2021dec13, 48h
+    </div>
+  </body>
+</html>

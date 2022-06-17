@@ -1,0 +1,1080 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 03 22:52:00.652772 2021] [mpm_winnt:notice] [pid 8844:tid 716] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Sep 03 22:52:00.660773 2021] [mpm_winnt:notice] [pid 8844:tid 716] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Sep 03 22:52:00.660773 2021] [core:notice] [pid 8844:tid 716] AH00094: Command line: 'httpd.exe -d G:/My Drive/servers/Apache24'
+[Fri Sep 03 22:52:00.676774 2021] [mpm_winnt:notice] [pid 8844:tid 716] AH00418: Parent: Created child process 17152
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 03 22:52:02.215844 2021] [mpm_winnt:notice] [pid 17152:tid 708] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 19 20:24:18.857879 2021] [core:warn] [pid 26908:tid 800] AH00098: pid file G:/My Drive/servers/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 19 20:24:19.005917 2021] [mpm_winnt:notice] [pid 26908:tid 800] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Nov 19 20:24:19.005917 2021] [mpm_winnt:notice] [pid 26908:tid 800] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Nov 19 20:24:19.005917 2021] [core:notice] [pid 26908:tid 800] AH00094: Command line: 'G:\\My Drive\\servers\\Apache24\\bin\\httpd.exe -d G:/My Drive/servers/Apache24'
+[Fri Nov 19 20:24:19.033936 2021] [mpm_winnt:notice] [pid 26908:tid 800] AH00418: Parent: Created child process 14944
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 08:29:35.048561 2021] [core:warn] [pid 30820:tid 544] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 22 08:29:35.149156 2021] [mpm_winnt:notice] [pid 30820:tid 544] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:29:35.149156 2021] [mpm_winnt:notice] [pid 30820:tid 544] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:29:35.149156 2021] [core:notice] [pid 30820:tid 544] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:29:35.173160 2021] [mpm_winnt:notice] [pid 30820:tid 544] AH00418: Parent: Created child process 31996
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 31996:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 08:32:20.110110 2021] [mpm_winnt:notice] [pid 30820:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 08:32:22.144093 2021] [mpm_winnt:notice] [pid 31996:tid 580] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 08:32:22.190960 2021] [mpm_winnt:notice] [pid 30820:tid 544] AH00430: Parent: Child process 31996 exited successfully.
+[Mon Nov 22 08:32:55.678060 2021] [mpm_winnt:notice] [pid 31084:tid 88] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:32:55.678060 2021] [mpm_winnt:notice] [pid 31084:tid 88] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:32:55.678060 2021] [core:notice] [pid 31084:tid 88] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:32:55.701857 2021] [mpm_winnt:notice] [pid 31084:tid 88] AH00418: Parent: Created child process 34092
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 34092:tid 4] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 08:33:59.474334 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65184] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:20.320526 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:22.981286 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:24.027710 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:24.703678 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:25.392709 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:26.004561 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65194] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:34:42.066097 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65205] AH01630: client denied by server configuration: G:/My Drive/server/www_local/README.md
+[Mon Nov 22 08:34:51.792501 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65207] AH01630: client denied by server configuration: G:/My Drive/server/www_local/README.md
+[Mon Nov 22 08:34:59.872825 2021] [authz_core:error] [pid 34092:tid 456] [client 127.0.0.1:65218] AH01630: client denied by server configuration: G:/My Drive/server/www_local/README.md
+[Mon Nov 22 08:35:09.191952 2021] [mpm_winnt:notice] [pid 31084:tid 88] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 08:35:11.223838 2021] [mpm_winnt:notice] [pid 34092:tid 4] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 08:35:11.271842 2021] [mpm_winnt:notice] [pid 31084:tid 88] AH00430: Parent: Child process 34092 exited successfully.
+[Mon Nov 22 08:35:50.984295 2021] [mpm_winnt:notice] [pid 1624:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:35:50.984295 2021] [mpm_winnt:notice] [pid 1624:tid 564] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:35:50.984295 2021] [core:notice] [pid 1624:tid 564] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:35:50.999921 2021] [mpm_winnt:notice] [pid 1624:tid 564] AH00418: Parent: Created child process 34528
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 34528:tid 632] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 08:35:57.733277 2021] [authz_core:error] [pid 34528:tid 1008] [client 127.0.0.1:65246] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:36:11.031703 2021] [authz_core:error] [pid 34528:tid 1008] [client 127.0.0.1:65253] AH01630: client denied by server configuration: G:/My Drive/server/www_local/index.md
+[Mon Nov 22 08:36:27.387933 2021] [authz_core:error] [pid 34528:tid 1008] [client 127.0.0.1:65259] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:37:21.032679 2021] [authz_core:error] [pid 34528:tid 1008] [client 127.0.0.1:65293] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:38:48.730033 2021] [authz_core:error] [pid 34528:tid 1008] [client 127.0.0.1:65339] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:38:57.779856 2021] [mpm_winnt:notice] [pid 1624:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 08:38:59.799462 2021] [mpm_winnt:notice] [pid 34528:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 08:38:59.867788 2021] [mpm_winnt:notice] [pid 1624:tid 564] AH00430: Parent: Child process 34528 exited successfully.
+[Mon Nov 22 08:39:05.063928 2021] [mpm_winnt:notice] [pid 34384:tid 484] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:39:05.071925 2021] [mpm_winnt:notice] [pid 34384:tid 484] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:39:05.071925 2021] [core:notice] [pid 34384:tid 484] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:39:05.087931 2021] [mpm_winnt:notice] [pid 34384:tid 484] AH00418: Parent: Created child process 26068
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 26068:tid 572] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 08:39:06.836798 2021] [authz_core:error] [pid 26068:tid 1008] [client 127.0.0.1:65350] AH01630: client denied by server configuration: G:/My Drive/server/www_local/
+[Mon Nov 22 08:48:00.924205 2021] [mpm_winnt:notice] [pid 34384:tid 484] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Mon Nov 22 08:48:02.945991 2021] [mpm_winnt:notice] [pid 26068:tid 572] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 08:48:02.994856 2021] [mpm_winnt:notice] [pid 34384:tid 484] AH00430: Parent: Child process 26068 exited successfully.
+[Mon Nov 22 08:54:45.004014 2021] [core:warn] [pid 33476:tid 596] AH00111: Config variable ${DocumentRoot} is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 08:54:45.121287 2021] [mpm_winnt:notice] [pid 33476:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:54:45.126293 2021] [mpm_winnt:notice] [pid 33476:tid 596] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:54:45.126293 2021] [core:notice] [pid 33476:tid 596] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:54:45.142833 2021] [mpm_winnt:notice] [pid 33476:tid 596] AH00418: Parent: Created child process 25072
+[Mon Nov 22 08:54:46.438098 2021] [core:warn] [pid 25072:tid 480] AH00111: Config variable ${DocumentRoot} is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+021] [core:warn] [pid 25072:tid 480] AH00111: Config variable ${DocumentRoot} is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 08:54:46.797212 2021] [mpm_winnt:notice] [pid 25072:tid 480] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 08:55:14.363087 2021] [mpm_winnt:notice] [pid 33476:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 08:55:16.377474 2021] [mpm_winnt:notice] [pid 25072:tid 480] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 08:55:16.393099 2021] [mpm_winnt:notice] [pid 33476:tid 596] AH00430: Parent: Child process 25072 exited successfully.
+[Mon Nov 22 08:56:20.866803 2021] [core:warn] [pid 15876:tid 524] AH00111: Config variable ${DocumentRoot} is not defined
+[Mon Nov 22 08:56:20.978818 2021] [mpm_winnt:notice] [pid 15876:tid 524] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 08:56:20.978818 2021] [mpm_winnt:notice] [pid 15876:tid 524] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 08:56:20.978818 2021] [core:notice] [pid 15876:tid 524] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 08:56:20.995136 2021] [mpm_winnt:notice] [pid 15876:tid 524] AH00418: Parent: Created child process 30380
+[Mon Nov 22 08:56:22.207581 2021] [core:warn] [pid 30380:tid 484] AH00111: Config variable ${DocumentRoot} is not defined
+Apache server interrupted...
+021] [core:warn] [pid 30380:tid 484] AH00111: Config variable ${DocumentRoot} is not defined
+[Mon Nov 22 08:56:22.534599 2021] [mpm_winnt:notice] [pid 30380:tid 484] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:00:35.318515 2021] [mpm_winnt:notice] [pid 15876:tid 524] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:00:37.350490 2021] [mpm_winnt:notice] [pid 30380:tid 484] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:00:37.372718 2021] [mpm_winnt:notice] [pid 15876:tid 524] AH00430: Parent: Child process 30380 exited successfully.
+[Mon Nov 22 09:00:44.700675 2021] [mpm_winnt:notice] [pid 24768:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:00:44.700675 2021] [mpm_winnt:notice] [pid 24768:tid 560] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:00:44.700675 2021] [core:notice] [pid 24768:tid 560] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:00:44.724688 2021] [mpm_winnt:notice] [pid 24768:tid 560] AH00418: Parent: Created child process 31984
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 31984:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:03:24.891314 2021] [mpm_winnt:notice] [pid 24768:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:03:26.905482 2021] [mpm_winnt:notice] [pid 31984:tid 580] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:03:26.937239 2021] [mpm_winnt:notice] [pid 24768:tid 560] AH00430: Parent: Child process 31984 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:03:32.443354 2021] [mpm_winnt:notice] [pid 23032:tid 720] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:03:32.443354 2021] [mpm_winnt:notice] [pid 23032:tid 720] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:03:32.443354 2021] [core:notice] [pid 23032:tid 720] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:03:32.467356 2021] [mpm_winnt:notice] [pid 23032:tid 720] AH00418: Parent: Created child process 17672
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:03:34.161471 2021] [mpm_winnt:notice] [pid 17672:tid 740] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:03:42.538151 2021] [mpm_winnt:notice] [pid 23032:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:03:44.560915 2021] [mpm_winnt:notice] [pid 17672:tid 740] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:03:44.612149 2021] [mpm_winnt:notice] [pid 23032:tid 720] AH00430: Parent: Child process 17672 exited successfully.
+[Mon Nov 22 09:04:31.395586 2021] [mpm_winnt:notice] [pid 25380:tid 392] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:04:31.403587 2021] [mpm_winnt:notice] [pid 25380:tid 392] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:04:31.403587 2021] [core:notice] [pid 25380:tid 392] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:04:31.424331 2021] [mpm_winnt:notice] [pid 25380:tid 392] AH00418: Parent: Created child process 20088
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 20088:tid 500] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:06:41.293211 2021] [mpm_winnt:notice] [pid 25380:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:06:43.316292 2021] [mpm_winnt:notice] [pid 20088:tid 500] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:06:43.356288 2021] [mpm_winnt:notice] [pid 25380:tid 392] AH00430: Parent: Child process 20088 exited successfully.
+[Mon Nov 22 09:06:50.325179 2021] [mpm_winnt:notice] [pid 6500:tid 616] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:06:50.333180 2021] [mpm_winnt:notice] [pid 6500:tid 616] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:06:50.333180 2021] [core:notice] [pid 6500:tid 616] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:06:50.349183 2021] [mpm_winnt:notice] [pid 6500:tid 616] AH00418: Parent: Created child process 8864
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 8864:tid 556] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:11:42.860387 2021] [mpm_winnt:notice] [pid 6500:tid 616] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:11:44.889063 2021] [mpm_winnt:notice] [pid 8864:tid 556] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:11:44.921533 2021] [mpm_winnt:notice] [pid 6500:tid 616] AH00430: Parent: Child process 8864 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:11:50.019984 2021] [mpm_winnt:notice] [pid 21444:tid 732] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:11:50.028004 2021] [mpm_winnt:notice] [pid 21444:tid 732] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:11:50.028004 2021] [core:notice] [pid 21444:tid 732] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:11:50.045133 2021] [mpm_winnt:notice] [pid 21444:tid 732] AH00418: Parent: Created child process 34644
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:11:51.637913 2021] [mpm_winnt:notice] [pid 34644:tid 808] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:14:30.661479 2021] [mpm_winnt:notice] [pid 21444:tid 732] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:14:32.684343 2021] [mpm_winnt:notice] [pid 34644:tid 808] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:14:32.732367 2021] [mpm_winnt:notice] [pid 21444:tid 732] AH00430: Parent: Child process 34644 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:15:05.101247 2021] [mpm_winnt:notice] [pid 28204:tid 680] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:15:05.109269 2021] [mpm_winnt:notice] [pid 28204:tid 680] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:15:05.109269 2021] [core:notice] [pid 28204:tid 680] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:15:05.133271 2021] [mpm_winnt:notice] [pid 28204:tid 680] AH00418: Parent: Created child process 26068
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5435:ee97:817f:1822. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 22 09:15:06.727775 2021] [mpm_winnt:notice] [pid 26068:tid 672] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 09:15:57.696221 2021] [mpm_winnt:notice] [pid 28204:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 09:15:59.723031 2021] [mpm_winnt:notice] [pid 26068:tid 672] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 09:15:59.773639 2021] [mpm_winnt:notice] [pid 28204:tid 680] AH00430: Parent: Child process 26068 exited successfully.
+[Mon Nov 22 09:16:09.706916 2021] [mpm_winnt:notice] [pid 28664:tid 488] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 09:16:09.714915 2021] [mpm_winnt:notice] [pid 28664:tid 488] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 09:16:09.714915 2021] [core:notice] [pid 28664:tid 488] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 09:16:09.730917 2021] [mpm_winnt:notice] [pid 28664:tid 488] AH00418: Parent: Created child process 30124
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 30124:tid 628] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 10:48:44.545253 2021] [mpm_winnt:notice] [pid 28664:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 10:48:46.572868 2021] [mpm_winnt:notice] [pid 30124:tid 628] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 10:48:46.626046 2021] [mpm_winnt:notice] [pid 28664:tid 488] AH00430: Parent: Child process 30124 exited successfully.
+[Mon Nov 22 10:48:52.195892 2021] [mpm_winnt:notice] [pid 15756:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 10:48:52.203893 2021] [mpm_winnt:notice] [pid 15756:tid 560] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 10:48:52.203893 2021] [core:notice] [pid 15756:tid 560] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 10:48:52.219893 2021] [mpm_winnt:notice] [pid 15756:tid 560] AH00418: Parent: Created child process 34480
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 34480:tid 596] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 11:24:54.856468 2021] [mpm_winnt:notice] [pid 15756:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 11:24:56.892117 2021] [mpm_winnt:notice] [pid 34480:tid 596] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 11:24:56.949846 2021] [mpm_winnt:notice] [pid 15756:tid 560] AH00430: Parent: Child process 34480 exited successfully.
+[Mon Nov 22 11:25:03.383147 2021] [mpm_winnt:notice] [pid 24060:tid 444] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 11:25:03.391148 2021] [mpm_winnt:notice] [pid 24060:tid 444] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 11:25:03.391148 2021] [core:notice] [pid 24060:tid 444] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 11:25:03.407149 2021] [mpm_winnt:notice] [pid 24060:tid 444] AH00418: Parent: Created child process 29956
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 29956:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 11:48:20.062394 2021] [mpm_winnt:notice] [pid 24060:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 11:48:22.090197 2021] [mpm_winnt:notice] [pid 29956:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 11:48:22.152185 2021] [mpm_winnt:notice] [pid 24060:tid 444] AH00430: Parent: Child process 29956 exited successfully.
+[Mon Nov 22 11:48:35.822854 2021] [mpm_winnt:notice] [pid 28100:tid 400] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 11:48:35.825864 2021] [mpm_winnt:notice] [pid 28100:tid 400] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 11:48:35.826871 2021] [core:notice] [pid 28100:tid 400] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 11:48:35.839817 2021] [mpm_winnt:notice] [pid 28100:tid 400] AH00418: Parent: Created child process 24660
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 24660:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 11:48:42.324683 2021] [mpm_winnt:notice] [pid 28100:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 11:48:44.339166 2021] [mpm_winnt:notice] [pid 24660:tid 612] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 11:48:44.376065 2021] [mpm_winnt:notice] [pid 28100:tid 400] AH00430: Parent: Child process 24660 exited successfully.
+[Mon Nov 22 11:56:44.261610 2021] [mpm_winnt:notice] [pid 27660:tid 644] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 11:56:44.264612 2021] [mpm_winnt:notice] [pid 27660:tid 644] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 11:56:44.264612 2021] [core:notice] [pid 27660:tid 644] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 11:56:44.276615 2021] [mpm_winnt:notice] [pid 27660:tid 644] AH00418: Parent: Created child process 23108
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 23108:tid 556] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 11:57:04.588556 2021] [mpm_winnt:notice] [pid 27660:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 11:57:06.612590 2021] [mpm_winnt:notice] [pid 23108:tid 556] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 11:57:06.642311 2021] [mpm_winnt:notice] [pid 27660:tid 644] AH00430: Parent: Child process 23108 exited successfully.
+[Mon Nov 22 11:57:35.706267 2021] [mpm_winnt:notice] [pid 34792:tid 528] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 11:57:35.708269 2021] [mpm_winnt:notice] [pid 34792:tid 528] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 11:57:35.708269 2021] [core:notice] [pid 34792:tid 528] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 11:57:35.717004 2021] [mpm_winnt:notice] [pid 34792:tid 528] AH00418: Parent: Created child process 14352
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 14352:tid 532] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 12:05:22.152283 2021] [mpm_winnt:notice] [pid 34792:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 12:05:24.180169 2021] [mpm_winnt:notice] [pid 14352:tid 532] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 12:05:24.227511 2021] [mpm_winnt:notice] [pid 34792:tid 528] AH00430: Parent: Child process 14352 exited successfully.
+[Mon Nov 22 12:05:27.796221 2021] [mpm_winnt:notice] [pid 29936:tid 624] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 12:05:27.798222 2021] [mpm_winnt:notice] [pid 29936:tid 624] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 12:05:27.799223 2021] [core:notice] [pid 29936:tid 624] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 12:05:27.812224 2021] [mpm_winnt:notice] [pid 29936:tid 624] AH00418: Parent: Created child process 33268
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 33268:tid 484] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 12:07:46.926752 2021] [mpm_winnt:notice] [pid 29936:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 12:07:48.948056 2021] [mpm_winnt:notice] [pid 33268:tid 484] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 12:07:48.977002 2021] [mpm_winnt:notice] [pid 29936:tid 624] AH00430: Parent: Child process 33268 exited successfully.
+[Mon Nov 22 12:07:52.216622 2021] [mpm_winnt:notice] [pid 28332:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 12:07:52.219615 2021] [mpm_winnt:notice] [pid 28332:tid 552] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 12:07:52.219615 2021] [core:notice] [pid 28332:tid 552] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 12:07:52.232618 2021] [mpm_winnt:notice] [pid 28332:tid 552] AH00418: Parent: Created child process 34440
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 34440:tid 648] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 12:07:53.323483 2021] [mpm_winnt:notice] [pid 28332:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 12:07:55.345209 2021] [mpm_winnt:notice] [pid 34440:tid 648] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 12:07:55.376159 2021] [mpm_winnt:notice] [pid 28332:tid 552] AH00430: Parent: Child process 34440 exited successfully.
+[Mon Nov 22 12:08:08.820955 2021] [mpm_winnt:notice] [pid 25964:tid 528] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 12:08:08.823957 2021] [mpm_winnt:notice] [pid 25964:tid 528] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 12:08:08.823957 2021] [core:notice] [pid 25964:tid 528] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 12:08:08.831664 2021] [mpm_winnt:notice] [pid 25964:tid 528] AH00418: Parent: Created child process 34808
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 34808:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 12:13:54.943084 2021] [mpm_winnt:notice] [pid 25964:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 12:13:56.959910 2021] [mpm_winnt:notice] [pid 34808:tid 584] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 12:13:56.994265 2021] [mpm_winnt:notice] [pid 25964:tid 528] AH00430: Parent: Child process 34808 exited successfully.
+[Mon Nov 22 12:14:05.673394 2021] [mpm_winnt:notice] [pid 28632:tid 556] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Nov 22 12:14:05.676395 2021] [mpm_winnt:notice] [pid 28632:tid 556] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Nov 22 12:14:05.677609 2021] [core:notice] [pid 28632:tid 556] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Nov 22 12:14:05.688995 2021] [mpm_winnt:notice] [pid 28632:tid 556] AH00418: Parent: Created child process 7064
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 7064:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 22 14:57:20.005140 2021] [mpm_winnt:notice] [pid 28632:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 22 14:57:22.026748 2021] [mpm_winnt:notice] [pid 7064:tid 568] AH00364: Child: All worker threads have exited.
+[Mon Nov 22 14:57:22.081667 2021] [mpm_winnt:notice] [pid 28632:tid 556] AH00430: Parent: Child process 7064 exited successfully.
+[Wed Dec 01 12:28:18.069687 2021] [mpm_winnt:notice] [pid 18520:tid 440] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Dec 01 12:28:18.080690 2021] [mpm_winnt:notice] [pid 18520:tid 440] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Dec 01 12:28:18.081690 2021] [core:notice] [pid 18520:tid 440] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Dec 01 12:28:18.095693 2021] [mpm_winnt:notice] [pid 18520:tid 440] AH00418: Parent: Created child process 14272
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 14272:tid 616] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 01 12:28:37.866190 2021] [mpm_winnt:notice] [pid 18520:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 01 12:28:39.886910 2021] [mpm_winnt:notice] [pid 14272:tid 616] AH00364: Child: All worker threads have exited.
+[Wed Dec 01 12:28:39.921908 2021] [mpm_winnt:notice] [pid 18520:tid 440] AH00430: Parent: Child process 14272 exited successfully.
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:32:34.718930 2021] [mpm_winnt:crit] [pid 33296:tid 512] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:34:51.586538 2021] [mpm_winnt:crit] [pid 34436:tid 500] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:40:29.813173 2021] [mpm_winnt:crit] [pid 34580:tid 600] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:47:44.291576 2021] [mpm_winnt:crit] [pid 24148:tid 608] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+[Wed Dec 01 12:48:09.464041 2021] [mpm_winnt:notice] [pid 5960:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Dec 01 12:48:09.467050 2021] [mpm_winnt:notice] [pid 5960:tid 568] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Dec 01 12:48:09.467050 2021] [core:notice] [pid 5960:tid 568] AH00094: Command line: 'g:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Dec 01 12:48:09.481047 2021] [mpm_winnt:notice] [pid 5960:tid 568] AH00418: Parent: Created child process 23028
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 23028:tid 472] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 01 12:50:24.248877 2021] [mpm_winnt:notice] [pid 5960:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Wed Dec 01 12:50:26.260694 2021] [mpm_winnt:notice] [pid 23028:tid 472] AH00364: Child: All worker threads have exited.
+[Wed Dec 01 12:50:26.294702 2021] [mpm_winnt:notice] [pid 5960:tid 568] AH00430: Parent: Child process 23028 exited successfully.
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:52:12.905933 2021] [mpm_winnt:crit] [pid 2872:tid 528] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Dec 01 12:53:34.129816 2021] [mpm_winnt:crit] [pid 26972:tid 532] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+[Wed Dec 01 12:55:48.336774 2021] [mpm_winnt:notice] [pid 15604:tid 472] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Dec 01 12:55:48.339781 2021] [mpm_winnt:notice] [pid 15604:tid 472] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Dec 01 12:55:48.339781 2021] [core:notice] [pid 15604:tid 472] AH00094: Command line: 'g:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Dec 01 12:55:48.353784 2021] [mpm_winnt:notice] [pid 15604:tid 472] AH00418: Parent: Created child process 32988
+[Thu Dec 02 13:20:58.194504 2021] [core:warn] [pid 33584:tid 736] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 02 13:20:58.248546 2021] [mpm_winnt:notice] [pid 33584:tid 736] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Dec 02 13:20:58.248546 2021] [mpm_winnt:notice] [pid 33584:tid 736] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Dec 02 13:20:58.248546 2021] [core:notice] [pid 33584:tid 736] AH00094: Command line: 'g:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Dec 02 13:20:58.262219 2021] [mpm_winnt:notice] [pid 33584:tid 736] AH00418: Parent: Created child process 36076
+[Tue Dec 07 21:57:45.711221 2021] [core:warn] [pid 197636:tid 572] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 07 21:57:45.788965 2021] [mpm_winnt:notice] [pid 197636:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Dec 07 21:57:45.788965 2021] [mpm_winnt:notice] [pid 197636:tid 572] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Dec 07 21:57:45.788965 2021] [core:notice] [pid 197636:tid 572] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Dec 07 21:57:45.801968 2021] [mpm_winnt:notice] [pid 197636:tid 572] AH00418: Parent: Created child process 186648
+[Mon Dec 13 14:57:40.166887 2021] [core:warn] [pid 22716:tid 604] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 13 14:57:40.849042 2021] [mpm_winnt:notice] [pid 22716:tid 604] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Dec 13 14:57:40.852042 2021] [mpm_winnt:notice] [pid 22716:tid 604] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Dec 13 14:57:40.853042 2021] [core:notice] [pid 22716:tid 604] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Dec 13 14:57:40.928060 2021] [mpm_winnt:notice] [pid 22716:tid 604] AH00418: Parent: Created child process 21984
+[Tue Dec 21 15:15:28.749149 2021] [core:warn] [pid 22040:tid 768] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 21 15:15:28.925227 2021] [mpm_winnt:notice] [pid 22040:tid 768] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Dec 21 15:15:28.928229 2021] [mpm_winnt:notice] [pid 22040:tid 768] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Dec 21 15:15:28.928229 2021] [core:notice] [pid 22040:tid 768] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Dec 21 15:15:28.970237 2021] [mpm_winnt:notice] [pid 22040:tid 768] AH00418: Parent: Created child process 23148
+[Wed Dec 22 15:47:05.614950 2021] [core:warn] [pid 22352:tid 568] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 22 15:47:05.782988 2021] [mpm_winnt:notice] [pid 22352:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Dec 22 15:47:05.784989 2021] [mpm_winnt:notice] [pid 22352:tid 568] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Dec 22 15:47:05.784989 2021] [core:notice] [pid 22352:tid 568] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Dec 22 15:47:05.825998 2021] [mpm_winnt:notice] [pid 22352:tid 568] AH00418: Parent: Created child process 13168
+[Thu Dec 23 06:38:15.030899 2021] [core:warn] [pid 19084:tid 628] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 23 06:38:15.082951 2021] [mpm_winnt:notice] [pid 19084:tid 628] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Dec 23 06:38:15.082951 2021] [mpm_winnt:notice] [pid 19084:tid 628] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Dec 23 06:38:15.084605 2021] [core:notice] [pid 19084:tid 628] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Dec 23 06:38:15.101555 2021] [mpm_winnt:notice] [pid 19084:tid 628] AH00418: Parent: Created child process 2124
+[Thu Dec 23 10:21:26.502536 2021] [core:warn] [pid 19320:tid 612] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 23 10:21:26.545357 2021] [mpm_winnt:notice] [pid 19320:tid 612] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Dec 23 10:21:26.545357 2021] [mpm_winnt:notice] [pid 19320:tid 612] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Dec 23 10:21:26.545357 2021] [core:notice] [pid 19320:tid 612] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Dec 23 10:21:28.723079 2021] [mpm_winnt:notice] [pid 19320:tid 612] AH00418: Parent: Created child process 18092
+[Wed Jan 05 22:20:27.919888 2022] [core:warn] [pid 16452:tid 548] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 05 22:20:28.116577 2022] [mpm_winnt:notice] [pid 16452:tid 548] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Jan 05 22:20:28.116577 2022] [mpm_winnt:notice] [pid 16452:tid 548] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Jan 05 22:20:28.117577 2022] [core:notice] [pid 16452:tid 548] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Jan 05 22:20:28.140581 2022] [mpm_winnt:notice] [pid 16452:tid 548] AH00418: Parent: Created child process 19424
+[Wed Jan 05 22:20:30.258866 2022] [mpm_winnt:notice] [pid 19424:tid 540] AH00354: Child: Starting 64 worker threads.
+[Fri Jan 14 01:04:58.151385 2022] [core:warn] [pid 3020:tid 536] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 14 01:04:58.458587 2022] [mpm_winnt:notice] [pid 3020:tid 536] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jan 14 01:04:58.458587 2022] [mpm_winnt:notice] [pid 3020:tid 536] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jan 14 01:04:58.459588 2022] [core:notice] [pid 3020:tid 536] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jan 14 01:04:59.041703 2022] [mpm_winnt:notice] [pid 3020:tid 536] AH00418: Parent: Created child process 23528
+[Thu Jan 20 00:31:32.883308 2022] [core:warn] [pid 19120:tid 184] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 20 00:31:32.992334 2022] [mpm_winnt:notice] [pid 19120:tid 184] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jan 20 00:31:32.993333 2022] [mpm_winnt:notice] [pid 19120:tid 184] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jan 20 00:31:32.993333 2022] [core:notice] [pid 19120:tid 184] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jan 20 00:31:33.018340 2022] [mpm_winnt:notice] [pid 19120:tid 184] AH00418: Parent: Created child process 9800
+[Thu Jan 20 00:31:36.147167 2022] [mpm_winnt:notice] [pid 9800:tid 628] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 01 16:57:16.269559 2022] [core:warn] [pid 31340:tid 860] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 01 16:57:16.327572 2022] [mpm_winnt:notice] [pid 31340:tid 860] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Feb 01 16:57:16.327572 2022] [mpm_winnt:notice] [pid 31340:tid 860] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Feb 01 16:57:16.327572 2022] [core:notice] [pid 31340:tid 860] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Feb 01 16:57:16.340574 2022] [mpm_winnt:notice] [pid 31340:tid 860] AH00418: Parent: Created child process 33872
+[Tue Feb 01 16:57:17.362322 2022] [mpm_winnt:notice] [pid 33872:tid 588] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 03 04:36:36.973600 2022] [core:warn] [pid 17388:tid 492] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 03 04:36:37.056601 2022] [mpm_winnt:notice] [pid 17388:tid 492] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Feb 03 04:36:37.056601 2022] [mpm_winnt:notice] [pid 17388:tid 492] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Feb 03 04:36:37.056601 2022] [core:notice] [pid 17388:tid 492] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Feb 03 04:36:37.074600 2022] [mpm_winnt:notice] [pid 17388:tid 492] AH00418: Parent: Created child process 17904
+[Sat Feb 05 20:45:04.052265 2022] [core:warn] [pid 18448:tid 592] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 05 20:45:04.140130 2022] [mpm_winnt:notice] [pid 18448:tid 592] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Feb 05 20:45:04.140130 2022] [mpm_winnt:notice] [pid 18448:tid 592] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Feb 05 20:45:04.140130 2022] [core:notice] [pid 18448:tid 592] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Feb 05 20:45:04.155755 2022] [mpm_winnt:notice] [pid 18448:tid 592] AH00418: Parent: Created child process 2792
+[Mon Feb 07 20:33:48.574419 2022] [core:warn] [pid 13344:tid 652] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 07 20:33:48.673409 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Feb 07 20:33:48.673409 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Feb 07 20:33:48.674406 2022] [core:notice] [pid 13344:tid 652] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Feb 07 20:33:48.697406 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00418: Parent: Created child process 21900
+[Mon Feb 07 20:33:51.040525 2022] [mpm_winnt:notice] [pid 21900:tid 628] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 08 13:18:13.820857 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Feb 08 13:18:13.828837 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Feb 08 13:18:13.828837 2022] [core:notice] [pid 13344:tid 652] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Feb 08 13:18:15.354580 2022] [mpm_winnt:notice] [pid 13344:tid 652] AH00418: Parent: Created child process 336
+[Tue Feb 08 13:18:17.570034 2022] [mpm_winnt:notice] [pid 336:tid 544] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 14 14:55:23.115582 2022] [core:warn] [pid 20672:tid 720] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 14 14:55:23.195581 2022] [mpm_winnt:notice] [pid 20672:tid 720] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Feb 14 14:55:23.195581 2022] [mpm_winnt:notice] [pid 20672:tid 720] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Feb 14 14:55:23.195581 2022] [core:notice] [pid 20672:tid 720] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Feb 14 14:55:23.215584 2022] [mpm_winnt:notice] [pid 20672:tid 720] AH00418: Parent: Created child process 24060
+[Mon Feb 14 18:15:43.207344 2022] [core:warn] [pid 19524:tid 544] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 14 18:15:43.538343 2022] [mpm_winnt:notice] [pid 19524:tid 544] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Feb 14 18:15:43.539350 2022] [mpm_winnt:notice] [pid 19524:tid 544] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Feb 14 18:15:43.540357 2022] [core:notice] [pid 19524:tid 544] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Feb 14 18:15:43.596343 2022] [mpm_winnt:notice] [pid 19524:tid 544] AH00418: Parent: Created child process 21288
+[Mon Feb 14 18:35:36.077312 2022] [core:warn] [pid 18868:tid 456] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 14 18:35:36.231313 2022] [mpm_winnt:notice] [pid 18868:tid 456] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Feb 14 18:35:36.232313 2022] [mpm_winnt:notice] [pid 18868:tid 456] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Feb 14 18:35:36.232313 2022] [core:notice] [pid 18868:tid 456] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Feb 14 18:35:36.290318 2022] [mpm_winnt:notice] [pid 18868:tid 456] AH00418: Parent: Created child process 20692
+[Thu Feb 17 00:20:03.021324 2022] [core:warn] [pid 14992:tid 560] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 17 00:20:03.579047 2022] [mpm_winnt:notice] [pid 14992:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Feb 17 00:20:03.580047 2022] [mpm_winnt:notice] [pid 14992:tid 560] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Feb 17 00:20:03.582048 2022] [core:notice] [pid 14992:tid 560] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Feb 17 00:20:04.905663 2022] [mpm_winnt:notice] [pid 14992:tid 560] AH00418: Parent: Created child process 22336
+[Thu Feb 17 00:20:21.766843 2022] [mpm_winnt:notice] [pid 22336:tid 648] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 18 04:16:55.213288 2022] [core:warn] [pid 7512:tid 672] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Feb 18 04:16:55.287286 2022] [mpm_winnt:notice] [pid 7512:tid 672] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Feb 18 04:16:55.287286 2022] [mpm_winnt:notice] [pid 7512:tid 672] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Feb 18 04:16:55.287286 2022] [core:notice] [pid 7512:tid 672] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Feb 18 04:16:55.305285 2022] [mpm_winnt:notice] [pid 7512:tid 672] AH00418: Parent: Created child process 10064
+[Sat Feb 19 09:08:52.457882 2022] [core:warn] [pid 18864:tid 492] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 19 09:08:52.548086 2022] [mpm_winnt:notice] [pid 18864:tid 492] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Feb 19 09:08:52.548086 2022] [mpm_winnt:notice] [pid 18864:tid 492] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Feb 19 09:08:52.548086 2022] [core:notice] [pid 18864:tid 492] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Feb 19 09:08:53.067642 2022] [mpm_winnt:notice] [pid 18864:tid 492] AH00418: Parent: Created child process 20612
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 20612:tid 188] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 20 19:14:37.620002 2022] [mpm_winnt:notice] [pid 18864:tid 492] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 20 19:14:39.646173 2022] [mpm_winnt:notice] [pid 20612:tid 188] AH00364: Child: All worker threads have exited.
+[Sun Feb 20 19:14:39.692574 2022] [mpm_winnt:notice] [pid 18864:tid 492] AH00430: Parent: Child process 20612 exited successfully.
+[Mon Feb 21 14:37:22.393724 2022] [mpm_winnt:notice] [pid 16560:tid 724] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Feb 21 14:37:22.463721 2022] [mpm_winnt:notice] [pid 16560:tid 724] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Feb 21 14:37:22.464725 2022] [core:notice] [pid 16560:tid 724] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Feb 21 14:37:22.514725 2022] [mpm_winnt:notice] [pid 16560:tid 724] AH00418: Parent: Created child process 18588
+[Tue Feb 22 15:25:12.098003 2022] [core:warn] [pid 13524:tid 748] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 22 15:25:12.226000 2022] [mpm_winnt:notice] [pid 13524:tid 748] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Feb 22 15:25:12.227000 2022] [mpm_winnt:notice] [pid 13524:tid 748] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Feb 22 15:25:12.227000 2022] [core:notice] [pid 13524:tid 748] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Feb 22 15:25:12.260000 2022] [mpm_winnt:notice] [pid 13524:tid 748] AH00418: Parent: Created child process 21952
+[Wed Feb 23 11:55:33.339605 2022] [core:warn] [pid 19064:tid 688] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 23 11:55:33.431881 2022] [mpm_winnt:notice] [pid 19064:tid 688] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Feb 23 11:55:33.431881 2022] [mpm_winnt:notice] [pid 19064:tid 688] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Feb 23 11:55:33.432879 2022] [core:notice] [pid 19064:tid 688] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Feb 23 11:55:33.483885 2022] [mpm_winnt:notice] [pid 19064:tid 688] AH00418: Parent: Created child process 20524
+[Thu Feb 24 00:39:10.605491 2022] [core:warn] [pid 19256:tid 552] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 24 00:39:10.709807 2022] [mpm_winnt:notice] [pid 19256:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Feb 24 00:39:10.710805 2022] [mpm_winnt:notice] [pid 19256:tid 552] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Feb 24 00:39:10.710805 2022] [core:notice] [pid 19256:tid 552] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Feb 24 00:39:10.755546 2022] [mpm_winnt:notice] [pid 19256:tid 552] AH00418: Parent: Created child process 20676
+[Thu Feb 24 00:47:22.095570 2022] [core:warn] [pid 19872:tid 592] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 24 00:47:22.173692 2022] [mpm_winnt:notice] [pid 19872:tid 592] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Feb 24 00:47:22.173692 2022] [mpm_winnt:notice] [pid 19872:tid 592] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Feb 24 00:47:22.173692 2022] [core:notice] [pid 19872:tid 592] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Feb 24 00:47:22.189318 2022] [mpm_winnt:notice] [pid 19872:tid 592] AH00418: Parent: Created child process 14440
+[Thu Feb 24 01:01:01.421774 2022] [core:warn] [pid 12368:tid 596] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 24 01:01:01.575305 2022] [mpm_winnt:notice] [pid 12368:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Feb 24 01:01:01.575305 2022] [mpm_winnt:notice] [pid 12368:tid 596] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Feb 24 01:01:01.575305 2022] [core:notice] [pid 12368:tid 596] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Feb 24 01:01:01.610885 2022] [mpm_winnt:notice] [pid 12368:tid 596] AH00418: Parent: Created child process 22592
+[Sat Feb 26 23:12:24.032221 2022] [core:warn] [pid 1664:tid 600] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 26 23:12:24.147210 2022] [mpm_winnt:notice] [pid 1664:tid 600] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Feb 26 23:12:24.151212 2022] [mpm_winnt:notice] [pid 1664:tid 600] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Feb 26 23:12:24.152218 2022] [core:notice] [pid 1664:tid 600] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Feb 26 23:12:24.682214 2022] [mpm_winnt:notice] [pid 1664:tid 600] AH00418: Parent: Created child process 23388
+[Sat Feb 26 23:12:27.218790 2022] [mpm_winnt:notice] [pid 23388:tid 512] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 04 06:04:48.009993 2022] [core:warn] [pid 20368:tid 612] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 04 06:04:48.221995 2022] [mpm_winnt:notice] [pid 20368:tid 612] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Mar 04 06:04:48.229997 2022] [mpm_winnt:notice] [pid 20368:tid 612] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Mar 04 06:04:48.237995 2022] [core:notice] [pid 20368:tid 612] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Mar 04 06:04:48.369993 2022] [mpm_winnt:notice] [pid 20368:tid 612] AH00418: Parent: Created child process 21040
+[Tue Mar 08 01:58:02.534476 2022] [core:warn] [pid 19744:tid 672] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 08 01:58:02.610026 2022] [mpm_winnt:notice] [pid 19744:tid 672] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Mar 08 01:58:02.610026 2022] [mpm_winnt:notice] [pid 19744:tid 672] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Mar 08 01:58:02.611030 2022] [core:notice] [pid 19744:tid 672] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Mar 08 01:58:02.632030 2022] [mpm_winnt:notice] [pid 19744:tid 672] AH00418: Parent: Created child process 19112
+[Tue Mar 08 09:45:03.162122 2022] [core:warn] [pid 3264:tid 748] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 08 09:45:03.405638 2022] [mpm_winnt:notice] [pid 3264:tid 748] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Mar 08 09:45:03.433640 2022] [mpm_winnt:notice] [pid 3264:tid 748] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Mar 08 09:45:03.461633 2022] [core:notice] [pid 3264:tid 748] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Mar 08 09:45:04.155406 2022] [mpm_winnt:notice] [pid 3264:tid 748] AH00418: Parent: Created child process 17288
+[Tue Mar 08 09:45:10.245638 2022] [mpm_winnt:notice] [pid 17288:tid 688] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 14 01:35:28.930029 2022] [core:warn] [pid 19300:tid 632] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 14 01:35:29.061030 2022] [mpm_winnt:notice] [pid 19300:tid 632] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Mar 14 01:35:29.066030 2022] [mpm_winnt:notice] [pid 19300:tid 632] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Mar 14 01:35:29.071032 2022] [core:notice] [pid 19300:tid 632] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Mar 14 01:35:29.095020 2022] [mpm_winnt:notice] [pid 19300:tid 632] AH00418: Parent: Created child process 19368
+[Wed Mar 16 22:47:21.838937 2022] [core:warn] [pid 19900:tid 660] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 16 22:47:21.907757 2022] [mpm_winnt:notice] [pid 19900:tid 660] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Mar 16 22:47:21.907757 2022] [mpm_winnt:notice] [pid 19900:tid 660] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Mar 16 22:47:21.908749 2022] [core:notice] [pid 19900:tid 660] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Mar 16 22:47:21.929757 2022] [mpm_winnt:notice] [pid 19900:tid 660] AH00418: Parent: Created child process 20896
+[Wed Mar 16 23:28:28.291640 2022] [core:warn] [pid 20564:tid 488] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 16 23:28:28.342850 2022] [mpm_winnt:notice] [pid 20564:tid 488] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Mar 16 23:28:28.343847 2022] [mpm_winnt:notice] [pid 20564:tid 488] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Mar 16 23:28:28.343847 2022] [core:notice] [pid 20564:tid 488] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Mar 16 23:28:28.363145 2022] [mpm_winnt:notice] [pid 20564:tid 488] AH00418: Parent: Created child process 7312
+[Wed Mar 16 23:28:30.555538 2022] [mpm_winnt:notice] [pid 7312:tid 492] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 18 11:06:55.822148 2022] [core:warn] [pid 21404:tid 468] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 18 11:06:56.012968 2022] [mpm_winnt:notice] [pid 21404:tid 468] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Mar 18 11:06:56.013966 2022] [mpm_winnt:notice] [pid 21404:tid 468] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Mar 18 11:06:56.014967 2022] [core:notice] [pid 21404:tid 468] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Mar 18 11:06:56.081966 2022] [mpm_winnt:notice] [pid 21404:tid 468] AH00418: Parent: Created child process 23164
+[Tue Mar 22 12:19:09.652722 2022] [core:warn] [pid 19860:tid 784] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 22 12:19:09.763103 2022] [mpm_winnt:notice] [pid 19860:tid 784] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Mar 22 12:19:09.763103 2022] [mpm_winnt:notice] [pid 19860:tid 784] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Mar 22 12:19:09.763103 2022] [core:notice] [pid 19860:tid 784] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Mar 22 12:19:09.811110 2022] [mpm_winnt:notice] [pid 19860:tid 784] AH00418: Parent: Created child process 21848
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 21848:tid 548] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 29 19:48:59.925485 2022] [mpm_winnt:notice] [pid 19860:tid 784] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 29 19:49:01.948090 2022] [mpm_winnt:notice] [pid 21848:tid 548] AH00364: Child: All worker threads have exited.
+[Tue Mar 29 19:49:02.076114 2022] [mpm_winnt:notice] [pid 19860:tid 784] AH00430: Parent: Child process 21848 exited successfully.
+Apache server shutdown initiated...
+[Wed Mar 30 14:43:49.025794 2022] [core:warn] [pid 16776:tid 160] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 30 14:43:49.140241 2022] [mpm_winnt:notice] [pid 16776:tid 160] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Mar 30 14:43:49.140241 2022] [mpm_winnt:notice] [pid 16776:tid 160] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Mar 30 14:43:49.144239 2022] [core:notice] [pid 16776:tid 160] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Mar 30 14:43:49.172241 2022] [mpm_winnt:notice] [pid 16776:tid 160] AH00418: Parent: Created child process 11624
+[Wed Mar 30 18:08:19.434575 2022] [core:warn] [pid 17892:tid 640] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 30 18:08:19.526708 2022] [mpm_winnt:notice] [pid 17892:tid 640] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Mar 30 18:08:19.526708 2022] [mpm_winnt:notice] [pid 17892:tid 640] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Mar 30 18:08:19.526708 2022] [core:notice] [pid 17892:tid 640] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Mar 30 18:08:19.550695 2022] [mpm_winnt:notice] [pid 17892:tid 640] AH00418: Parent: Created child process 21268
+[Thu Mar 31 09:56:17.241000 2022] [core:warn] [pid 808:tid 512] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 31 09:56:17.336013 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Mar 31 09:56:17.336013 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Mar 31 09:56:17.337014 2022] [core:notice] [pid 808:tid 512] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Mar 31 09:56:17.362008 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00418: Parent: Created child process 24488
+[Thu Mar 31 09:56:20.979816 2022] [mpm_winnt:notice] [pid 24488:tid 476] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 01 13:09:38.556885 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Apr 01 13:09:38.569430 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Apr 01 13:09:38.570431 2022] [core:notice] [pid 808:tid 512] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Apr 01 13:09:39.786477 2022] [mpm_winnt:notice] [pid 808:tid 512] AH00418: Parent: Created child process 32640
+[Wed Apr 06 11:41:17.355002 2022] [core:warn] [pid 19760:tid 596] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 06 11:41:17.533025 2022] [mpm_winnt:notice] [pid 19760:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Apr 06 11:41:17.533025 2022] [mpm_winnt:notice] [pid 19760:tid 596] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Apr 06 11:41:17.533025 2022] [core:notice] [pid 19760:tid 596] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Apr 06 11:41:17.569029 2022] [mpm_winnt:notice] [pid 19760:tid 596] AH00418: Parent: Created child process 16920
+[Wed Apr 06 11:41:20.648984 2022] [mpm_winnt:notice] [pid 16920:tid 740] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 09 21:49:41.208046 2022] [core:warn] [pid 13172:tid 512] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 09 21:49:41.309046 2022] [mpm_winnt:notice] [pid 13172:tid 512] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Apr 09 21:49:41.310040 2022] [mpm_winnt:notice] [pid 13172:tid 512] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Apr 09 21:49:41.310040 2022] [core:notice] [pid 13172:tid 512] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Apr 09 21:49:41.335042 2022] [mpm_winnt:notice] [pid 13172:tid 512] AH00418: Parent: Created child process 16164
+[Sat Apr 09 21:49:43.826992 2022] [mpm_winnt:notice] [pid 16164:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 16 16:28:28.943631 2022] [core:warn] [pid 18092:tid 480] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 16 16:28:29.024635 2022] [mpm_winnt:notice] [pid 18092:tid 480] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Apr 16 16:28:29.027643 2022] [mpm_winnt:notice] [pid 18092:tid 480] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Apr 16 16:28:29.028631 2022] [core:notice] [pid 18092:tid 480] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Apr 16 16:28:29.048644 2022] [mpm_winnt:notice] [pid 18092:tid 480] AH00418: Parent: Created child process 19972
+[Wed Apr 20 17:10:13.170291 2022] [core:warn] [pid 20280:tid 760] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 20 17:10:13.231451 2022] [mpm_winnt:notice] [pid 20280:tid 760] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Apr 20 17:10:13.231451 2022] [mpm_winnt:notice] [pid 20280:tid 760] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Apr 20 17:10:13.232447 2022] [core:notice] [pid 20280:tid 760] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Apr 20 17:10:13.250111 2022] [mpm_winnt:notice] [pid 20280:tid 760] AH00418: Parent: Created child process 10884
+[Wed Apr 20 17:10:14.885194 2022] [mpm_winnt:notice] [pid 10884:tid 688] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 25 17:21:53.546648 2022] [core:warn] [pid 21044:tid 608] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 25 17:21:53.679651 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Apr 25 17:21:53.679651 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Apr 25 17:21:53.679651 2022] [core:notice] [pid 21044:tid 608] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Apr 25 17:21:53.727650 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00418: Parent: Created child process 13680
+[Mon Apr 25 17:21:57.229123 2022] [mpm_winnt:notice] [pid 13680:tid 600] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 25 22:07:19.745015 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Apr 25 22:07:19.745015 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Apr 25 22:07:19.745015 2022] [core:notice] [pid 21044:tid 608] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Apr 25 22:07:20.885906 2022] [mpm_winnt:notice] [pid 21044:tid 608] AH00418: Parent: Created child process 26496
+[Mon Apr 25 22:07:22.237063 2022] [mpm_winnt:notice] [pid 26496:tid 612] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 26 11:22:40.921397 2022] [core:warn] [pid 21044:tid 668] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 26 11:22:41.049395 2022] [mpm_winnt:notice] [pid 21044:tid 668] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Apr 26 11:22:41.049395 2022] [mpm_winnt:notice] [pid 21044:tid 668] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Apr 26 11:22:41.049395 2022] [core:notice] [pid 21044:tid 668] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Apr 26 11:22:41.081395 2022] [mpm_winnt:notice] [pid 21044:tid 668] AH00418: Parent: Created child process 25812
+[Wed Apr 27 19:58:58.683230 2022] [core:warn] [pid 16904:tid 760] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 27 19:58:58.737722 2022] [mpm_winnt:notice] [pid 16904:tid 760] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Apr 27 19:58:58.737722 2022] [mpm_winnt:notice] [pid 16904:tid 760] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Apr 27 19:58:58.737722 2022] [core:notice] [pid 16904:tid 760] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Wed Apr 27 19:58:59.151453 2022] [mpm_winnt:notice] [pid 16904:tid 760] AH00418: Parent: Created child process 18764
+[Thu Apr 28 15:06:24.408514 2022] [core:warn] [pid 21176:tid 604] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 28 15:06:25.067099 2022] [mpm_winnt:notice] [pid 21176:tid 604] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Apr 28 15:06:25.067099 2022] [mpm_winnt:notice] [pid 21176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Apr 28 15:06:25.075100 2022] [core:notice] [pid 21176:tid 604] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Apr 28 15:06:25.123105 2022] [mpm_winnt:notice] [pid 21176:tid 604] AH00418: Parent: Created child process 24236
+[Sun May 01 23:10:56.880588 2022] [core:warn] [pid 3064:tid 616] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 01 23:10:57.020592 2022] [mpm_winnt:notice] [pid 3064:tid 616] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun May 01 23:10:57.020592 2022] [mpm_winnt:notice] [pid 3064:tid 616] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun May 01 23:10:57.021589 2022] [core:notice] [pid 3064:tid 616] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun May 01 23:10:57.040588 2022] [mpm_winnt:notice] [pid 3064:tid 616] AH00418: Parent: Created child process 21620
+[Sun May 01 23:11:06.100514 2022] [mpm_winnt:notice] [pid 21620:tid 728] AH00354: Child: Starting 64 worker threads.
+[Thu May 05 13:27:22.426723 2022] [core:warn] [pid 21888:tid 720] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 05 13:27:22.482025 2022] [mpm_winnt:notice] [pid 21888:tid 720] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu May 05 13:27:22.482025 2022] [mpm_winnt:notice] [pid 21888:tid 720] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu May 05 13:27:22.482025 2022] [core:notice] [pid 21888:tid 720] AH00094: Command line: 'httpd.exe -d G:/My Drive/server/Apache24'
+[Thu May 05 13:27:22.502910 2022] [mpm_winnt:notice] [pid 21888:tid 720] AH00418: Parent: Created child process 9812
+[Thu May 05 18:33:09.282838 2022] [core:warn] [pid 2244:tid 692] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 05 18:33:09.491875 2022] [mpm_winnt:notice] [pid 2244:tid 692] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu May 05 18:33:09.496874 2022] [mpm_winnt:notice] [pid 2244:tid 692] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu May 05 18:33:09.507875 2022] [core:notice] [pid 2244:tid 692] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu May 05 18:33:09.552868 2022] [mpm_winnt:notice] [pid 2244:tid 692] AH00418: Parent: Created child process 27184
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 27184:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sun May 08 02:59:45.632407 2022] [mpm_winnt:notice] [pid 2244:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun May 08 02:59:47.660115 2022] [mpm_winnt:notice] [pid 27184:tid 4] AH00364: Child: All worker threads have exited.
+[Sun May 08 02:59:47.746781 2022] [mpm_winnt:notice] [pid 2244:tid 692] AH00430: Parent: Child process 27184 exited successfully.
+[Sun May 08 03:00:36.244754 2022] [mpm_winnt:notice] [pid 214732:tid 524] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun May 08 03:00:36.252752 2022] [mpm_winnt:notice] [pid 214732:tid 524] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun May 08 03:00:36.252752 2022] [core:notice] [pid 214732:tid 524] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun May 08 03:00:36.269672 2022] [mpm_winnt:notice] [pid 214732:tid 524] AH00418: Parent: Created child process 215876
+[Tue May 10 20:23:12.931363 2022] [core:warn] [pid 19460:tid 660] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 10 20:23:13.025365 2022] [mpm_winnt:notice] [pid 19460:tid 660] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue May 10 20:23:13.025365 2022] [mpm_winnt:notice] [pid 19460:tid 660] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue May 10 20:23:13.025365 2022] [core:notice] [pid 19460:tid 660] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue May 10 20:23:13.055369 2022] [mpm_winnt:notice] [pid 19460:tid 660] AH00418: Parent: Created child process 16196
+[Tue May 10 20:32:03.998391 2022] [core:warn] [pid 19420:tid 636] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 10 20:32:04.060468 2022] [mpm_winnt:notice] [pid 19420:tid 636] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue May 10 20:32:04.061460 2022] [mpm_winnt:notice] [pid 19420:tid 636] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue May 10 20:32:04.061460 2022] [core:notice] [pid 19420:tid 636] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue May 10 20:32:04.065610 2022] [mpm_winnt:notice] [pid 19420:tid 636] AH00418: Parent: Created child process 19284
+[Thu May 12 00:24:06.219017 2022] [core:warn] [pid 20912:tid 536] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 12 00:24:06.298523 2022] [mpm_winnt:notice] [pid 20912:tid 536] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu May 12 00:24:06.298523 2022] [mpm_winnt:notice] [pid 20912:tid 536] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu May 12 00:24:06.300521 2022] [core:notice] [pid 20912:tid 536] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu May 12 00:24:06.333698 2022] [mpm_winnt:notice] [pid 20912:tid 536] AH00418: Parent: Created child process 19932
+[Thu May 12 00:24:10.315191 2022] [mpm_winnt:notice] [pid 19932:tid 600] AH00354: Child: Starting 64 worker threads.
+[Tue May 17 11:43:51.154038 2022] [core:warn] [pid 21284:tid 576] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 17 11:43:51.433987 2022] [mpm_winnt:notice] [pid 21284:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue May 17 11:43:51.434988 2022] [mpm_winnt:notice] [pid 21284:tid 576] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue May 17 11:43:51.442986 2022] [core:notice] [pid 21284:tid 576] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue May 17 11:43:51.540992 2022] [mpm_winnt:notice] [pid 21284:tid 576] AH00418: Parent: Created child process 20372
+[Sat May 21 10:22:28.139465 2022] [core:warn] [pid 21448:tid 592] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 21 10:22:28.250472 2022] [mpm_winnt:notice] [pid 21448:tid 592] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat May 21 10:22:28.250472 2022] [mpm_winnt:notice] [pid 21448:tid 592] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat May 21 10:22:28.251470 2022] [core:notice] [pid 21448:tid 592] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat May 21 10:22:28.283466 2022] [mpm_winnt:notice] [pid 21448:tid 592] AH00418: Parent: Created child process 25348
+[Sat May 21 10:22:33.328516 2022] [mpm_winnt:notice] [pid 25348:tid 536] AH00354: Child: Starting 64 worker threads.
+[Tue May 24 11:55:33.895097 2022] [core:warn] [pid 20376:tid 552] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 24 11:55:34.071097 2022] [mpm_winnt:notice] [pid 20376:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue May 24 11:55:34.071097 2022] [mpm_winnt:notice] [pid 20376:tid 552] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue May 24 11:55:34.071097 2022] [core:notice] [pid 20376:tid 552] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue May 24 11:55:34.111094 2022] [mpm_winnt:notice] [pid 20376:tid 552] AH00418: Parent: Created child process 18092
+[Tue May 24 11:55:37.063400 2022] [mpm_winnt:notice] [pid 18092:tid 520] AH00354: Child: Starting 64 worker threads.
+[Sun May 29 02:51:54.835871 2022] [core:warn] [pid 27592:tid 648] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 29 02:51:54.895870 2022] [mpm_winnt:notice] [pid 27592:tid 648] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun May 29 02:51:54.895870 2022] [mpm_winnt:notice] [pid 27592:tid 648] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun May 29 02:51:54.895870 2022] [core:notice] [pid 27592:tid 648] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun May 29 02:51:54.907873 2022] [mpm_winnt:notice] [pid 27592:tid 648] AH00418: Parent: Created child process 19068
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 19068:tid 544] AH00354: Child: Starting 64 worker threads.
+[Mon May 30 14:21:51.876057 2022] [mpm_winnt:notice] [pid 27592:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 30 14:21:53.896992 2022] [mpm_winnt:notice] [pid 19068:tid 544] AH00364: Child: All worker threads have exited.
+[Mon May 30 14:21:53.942329 2022] [mpm_winnt:notice] [pid 27592:tid 648] AH00430: Parent: Child process 19068 exited successfully.
+[Mon May 30 14:25:25.108400 2022] [mpm_winnt:notice] [pid 16200:tid 644] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon May 30 14:25:25.112401 2022] [mpm_winnt:notice] [pid 16200:tid 644] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon May 30 14:25:25.112401 2022] [core:notice] [pid 16200:tid 644] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon May 30 14:25:25.128400 2022] [mpm_winnt:notice] [pid 16200:tid 644] AH00418: Parent: Created child process 25796
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 25796:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon May 30 15:37:48.893033 2022] [mpm_winnt:notice] [pid 16200:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 30 15:37:50.628499 2022] [core:warn] [pid 27140:tid 588] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 30 15:37:50.943498 2022] [mpm_winnt:notice] [pid 25796:tid 580] AH00364: Child: All worker threads have exited.
+[Mon May 30 15:37:52.626523 2022] [mpm_winnt:notice] [pid 27140:tid 588] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon May 30 15:37:52.627524 2022] [mpm_winnt:notice] [pid 27140:tid 588] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon May 30 15:37:52.627524 2022] [core:notice] [pid 27140:tid 588] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon May 30 15:37:52.640564 2022] [mpm_winnt:notice] [pid 27140:tid 588] AH00418: Parent: Created child process 64328
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 64328:tid 732] AH00354: Child: Starting 64 worker threads.
+[Mon May 30 15:49:58.380616 2022] [mpm_winnt:notice] [pid 27140:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 30 15:50:00.399669 2022] [mpm_winnt:notice] [pid 64328:tid 732] AH00364: Child: All worker threads have exited.
+[Mon May 30 16:16:56.780028 2022] [core:warn] [pid 24208:tid 452] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 30 16:17:02.532946 2022] [mpm_winnt:notice] [pid 24208:tid 452] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon May 30 16:17:02.532946 2022] [mpm_winnt:notice] [pid 24208:tid 452] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon May 30 16:17:02.532946 2022] [core:notice] [pid 24208:tid 452] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon May 30 16:17:02.548953 2022] [mpm_winnt:notice] [pid 24208:tid 452] AH00418: Parent: Created child process 47536
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 47536:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon May 30 16:28:01.534853 2022] [mpm_winnt:notice] [pid 24208:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 30 16:28:03.558733 2022] [mpm_winnt:notice] [pid 47536:tid 580] AH00364: Child: All worker threads have exited.
+[Mon May 30 16:28:11.040667 2022] [core:warn] [pid 18500:tid 568] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 30 16:28:11.112788 2022] [mpm_winnt:notice] [pid 18500:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon May 30 16:28:11.112788 2022] [mpm_winnt:notice] [pid 18500:tid 568] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon May 30 16:28:11.112788 2022] [core:notice] [pid 18500:tid 568] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon May 30 16:28:11.136801 2022] [mpm_winnt:notice] [pid 18500:tid 568] AH00418: Parent: Created child process 49820
+[Mon May 30 16:28:12.889405 2022] [mpm_winnt:notice] [pid 49820:tid 640] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 02 10:14:16.505146 2022] [core:warn] [pid 73716:tid 620] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 02 10:14:16.717085 2022] [mpm_winnt:notice] [pid 73716:tid 620] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 02 10:14:16.718086 2022] [mpm_winnt:notice] [pid 73716:tid 620] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 02 10:14:16.718086 2022] [core:notice] [pid 73716:tid 620] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 02 10:14:16.734085 2022] [mpm_winnt:notice] [pid 73716:tid 620] AH00418: Parent: Created child process 48000
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 48000:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 02 10:49:47.921263 2022] [mpm_winnt:notice] [pid 73716:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 02 10:49:49.950616 2022] [mpm_winnt:notice] [pid 48000:tid 504] AH00364: Child: All worker threads have exited.
+[Thu Jun 02 13:51:37.115755 2022] [core:warn] [pid 90844:tid 564] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 02 13:51:37.410188 2022] [mpm_winnt:notice] [pid 90844:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 02 13:51:37.411190 2022] [mpm_winnt:notice] [pid 90844:tid 564] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 02 13:51:37.411190 2022] [core:notice] [pid 90844:tid 564] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 02 13:51:37.422525 2022] [mpm_winnt:notice] [pid 90844:tid 564] AH00418: Parent: Created child process 84444
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 84444:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 02 13:54:32.492588 2022] [mpm_winnt:notice] [pid 90844:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 02 13:54:34.511880 2022] [mpm_winnt:notice] [pid 84444:tid 608] AH00364: Child: All worker threads have exited.
+[Thu Jun 02 16:15:40.406517 2022] [core:warn] [pid 35320:tid 632] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 02 16:15:40.634310 2022] [mpm_winnt:notice] [pid 35320:tid 632] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 02 16:15:40.634310 2022] [mpm_winnt:notice] [pid 35320:tid 632] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 02 16:15:40.634310 2022] [core:notice] [pid 35320:tid 632] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 02 16:15:40.646313 2022] [mpm_winnt:notice] [pid 35320:tid 632] AH00418: Parent: Created child process 17132
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17132:tid 640] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 02 19:10:14.279819 2022] [mpm_winnt:notice] [pid 35320:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 02 19:10:16.304837 2022] [mpm_winnt:notice] [pid 17132:tid 640] AH00364: Child: All worker threads have exited.
+[Thu Jun 02 19:10:34.370590 2022] [core:warn] [pid 86336:tid 452] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 02 19:10:40.261907 2022] [mpm_winnt:notice] [pid 86336:tid 452] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 02 19:10:40.261907 2022] [mpm_winnt:notice] [pid 86336:tid 452] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 02 19:10:40.261907 2022] [core:notice] [pid 86336:tid 452] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 02 19:10:40.285907 2022] [mpm_winnt:notice] [pid 86336:tid 452] AH00418: Parent: Created child process 60284
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 60284:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 02 19:57:41.100086 2022] [mpm_winnt:notice] [pid 86336:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 02 19:57:43.072752 2022] [core:warn] [pid 76680:tid 96] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 02 19:57:43.120770 2022] [mpm_winnt:notice] [pid 60284:tid 596] AH00364: Child: All worker threads have exited.
+[Thu Jun 02 19:57:43.144748 2022] [mpm_winnt:notice] [pid 76680:tid 96] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 02 19:57:43.144748 2022] [mpm_winnt:notice] [pid 76680:tid 96] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 02 19:57:43.144748 2022] [core:notice] [pid 76680:tid 96] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 02 19:57:43.160748 2022] [mpm_winnt:notice] [pid 76680:tid 96] AH00418: Parent: Created child process 56944
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 56944:tid 652] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 00:10:45.387824 2022] [mpm_winnt:notice] [pid 76680:tid 96] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 00:10:46.983877 2022] [core:warn] [pid 72232:tid 560] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 00:10:47.272876 2022] [mpm_winnt:notice] [pid 72232:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 00:10:47.272876 2022] [mpm_winnt:notice] [pid 72232:tid 560] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 00:10:47.272876 2022] [core:notice] [pid 72232:tid 560] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 00:10:47.285876 2022] [mpm_winnt:notice] [pid 72232:tid 560] AH00418: Parent: Created child process 81660
+[Fri Jun 03 00:10:47.413898 2022] [mpm_winnt:notice] [pid 56944:tid 652] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 00:10:48.281375 2022] [mpm_winnt:notice] [pid 81660:tid 548] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 02:18:39.117680 2022] [core:warn] [pid 63256:tid 504] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 02:18:45.429010 2022] [mpm_winnt:notice] [pid 63256:tid 504] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 02:18:45.429010 2022] [mpm_winnt:notice] [pid 63256:tid 504] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 02:18:45.429010 2022] [core:notice] [pid 63256:tid 504] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 02:18:45.445015 2022] [mpm_winnt:notice] [pid 63256:tid 504] AH00418: Parent: Created child process 24704
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 24704:tid 676] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 13:02:51.485897 2022] [mpm_winnt:notice] [pid 63256:tid 504] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 13:02:53.701588 2022] [mpm_winnt:notice] [pid 24704:tid 676] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 13:02:59.586333 2022] [core:warn] [pid 63588:tid 732] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 13:02:59.691444 2022] [mpm_winnt:notice] [pid 63588:tid 732] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 13:02:59.691444 2022] [mpm_winnt:notice] [pid 63588:tid 732] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 13:02:59.691444 2022] [core:notice] [pid 63588:tid 732] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 13:02:59.707453 2022] [mpm_winnt:notice] [pid 63588:tid 732] AH00418: Parent: Created child process 83464
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 83464:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 15:52:13.790218 2022] [mpm_winnt:notice] [pid 63588:tid 732] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 15:52:15.596937 2022] [core:warn] [pid 11596:tid 464] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 15:52:15.804937 2022] [mpm_winnt:notice] [pid 83464:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 15:52:20.329270 2022] [mpm_winnt:notice] [pid 11596:tid 464] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 15:52:20.330270 2022] [mpm_winnt:notice] [pid 11596:tid 464] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 15:52:20.330270 2022] [core:notice] [pid 11596:tid 464] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 15:52:20.344274 2022] [mpm_winnt:notice] [pid 11596:tid 464] AH00418: Parent: Created child process 78544
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 78544:tid 4] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 15:59:24.314607 2022] [mpm_winnt:notice] [pid 11596:tid 464] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 15:59:26.333417 2022] [mpm_winnt:notice] [pid 78544:tid 4] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 17:32:30.530824 2022] [core:warn] [pid 59916:tid 408] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 17:32:30.742820 2022] [mpm_winnt:notice] [pid 59916:tid 408] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 17:32:30.743820 2022] [mpm_winnt:notice] [pid 59916:tid 408] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 17:32:30.743820 2022] [core:notice] [pid 59916:tid 408] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 17:32:30.754819 2022] [mpm_winnt:notice] [pid 59916:tid 408] AH00418: Parent: Created child process 55988
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 55988:tid 88] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 18:01:28.136751 2022] [mpm_winnt:notice] [pid 59916:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 18:01:29.347392 2022] [core:warn] [pid 55748:tid 188] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 18:01:29.558378 2022] [mpm_winnt:notice] [pid 55748:tid 188] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 18:01:29.558378 2022] [mpm_winnt:notice] [pid 55748:tid 188] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 18:01:29.558378 2022] [core:notice] [pid 55748:tid 188] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 18:01:29.569380 2022] [mpm_winnt:notice] [pid 55748:tid 188] AH00418: Parent: Created child process 52656
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 55988:tid 88] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 18:01:30.619378 2022] [mpm_winnt:notice] [pid 52656:tid 720] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 20:00:03.337983 2022] [mpm_winnt:notice] [pid 55748:tid 188] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 20:00:05.115948 2022] [core:warn] [pid 62304:tid 200] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 20:00:05.341947 2022] [mpm_winnt:notice] [pid 62304:tid 200] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 20:00:05.341947 2022] [mpm_winnt:notice] [pid 62304:tid 200] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 20:00:05.341947 2022] [core:notice] [pid 62304:tid 200] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 20:00:05.353945 2022] [mpm_winnt:notice] [pid 62304:tid 200] AH00418: Parent: Created child process 77976
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 52656:tid 720] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 20:00:06.575949 2022] [mpm_winnt:notice] [pid 77976:tid 648] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 03 20:20:31.925323 2022] [mpm_winnt:notice] [pid 62304:tid 200] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 03 20:20:33.937692 2022] [mpm_winnt:notice] [pid 77976:tid 648] AH00364: Child: All worker threads have exited.
+[Fri Jun 03 21:40:29.210719 2022] [core:warn] [pid 15424:tid 180] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 03 21:40:29.587590 2022] [mpm_winnt:notice] [pid 15424:tid 180] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 03 21:40:29.587590 2022] [mpm_winnt:notice] [pid 15424:tid 180] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 03 21:40:29.587590 2022] [core:notice] [pid 15424:tid 180] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 03 21:40:29.602779 2022] [mpm_winnt:notice] [pid 15424:tid 180] AH00418: Parent: Created child process 90644
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 90644:tid 584] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 04 02:35:24.789607 2022] [mpm_winnt:notice] [pid 15424:tid 180] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 04 02:35:26.818486 2022] [mpm_winnt:notice] [pid 90644:tid 584] AH00364: Child: All worker threads have exited.
+[Sat Jun 04 02:35:43.980221 2022] [core:warn] [pid 89036:tid 640] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 04 02:35:44.040193 2022] [mpm_winnt:notice] [pid 89036:tid 640] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 04 02:35:44.040193 2022] [mpm_winnt:notice] [pid 89036:tid 640] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 04 02:35:44.040193 2022] [core:notice] [pid 89036:tid 640] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 04 02:35:44.055191 2022] [mpm_winnt:notice] [pid 89036:tid 640] AH00418: Parent: Created child process 88600
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 88600:tid 648] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 04 02:40:06.546263 2022] [mpm_winnt:notice] [pid 89036:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 04 02:40:08.554175 2022] [mpm_winnt:notice] [pid 88600:tid 648] AH00364: Child: All worker threads have exited.
+[Sat Jun 04 02:40:08.605720 2022] [core:warn] [pid 5620:tid 676] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 04 02:40:08.675720 2022] [mpm_winnt:notice] [pid 5620:tid 676] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 04 02:40:08.675720 2022] [mpm_winnt:notice] [pid 5620:tid 676] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 04 02:40:08.675720 2022] [core:notice] [pid 5620:tid 676] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 04 02:40:08.690716 2022] [mpm_winnt:notice] [pid 5620:tid 676] AH00418: Parent: Created child process 76744
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 76744:tid 592] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 04 14:10:46.178369 2022] [mpm_winnt:notice] [pid 5620:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 04 14:10:48.122407 2022] [core:warn] [pid 74912:tid 664] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 04 14:10:48.236409 2022] [mpm_winnt:notice] [pid 74912:tid 664] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 04 14:10:48.237410 2022] [mpm_winnt:notice] [pid 74912:tid 664] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 04 14:10:48.237410 2022] [core:notice] [pid 74912:tid 664] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 04 14:10:48.252404 2022] [mpm_winnt:notice] [pid 74912:tid 664] AH00418: Parent: Created child process 51916
+[Sat Jun 04 14:10:48.470206 2022] [mpm_winnt:notice] [pid 76744:tid 592] AH00364: Child: All worker threads have exited.
+[Sat Jun 04 14:10:49.541316 2022] [mpm_winnt:notice] [pid 51916:tid 656] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 04 18:52:13.754034 2022] [mpm_winnt:crit] [pid 51916:tid 656] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Jun 04 18:52:13.763942 2022] [mpm_winnt:warn] [pid 51916:tid 1044] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 04 18:52:15.810373 2022] [mpm_winnt:notice] [pid 51916:tid 656] AH00364: Child: All worker threads have exited.
+[Sat Jun 04 18:52:21.707336 2022] [core:warn] [pid 59164:tid 644] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 04 18:52:21.817662 2022] [mpm_winnt:notice] [pid 59164:tid 644] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 04 18:52:21.817662 2022] [mpm_winnt:notice] [pid 59164:tid 644] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 04 18:52:21.817662 2022] [core:notice] [pid 59164:tid 644] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 04 18:52:21.827680 2022] [mpm_winnt:notice] [pid 59164:tid 644] AH00418: Parent: Created child process 43108
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 43108:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 04 21:29:08.135409 2022] [mpm_winnt:notice] [pid 59164:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 04 21:29:09.804499 2022] [core:warn] [pid 33980:tid 656] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 04 21:29:10.161025 2022] [mpm_winnt:notice] [pid 43108:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Jun 04 21:29:18.173026 2022] [mpm_winnt:notice] [pid 33980:tid 656] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 04 21:29:18.173026 2022] [mpm_winnt:notice] [pid 33980:tid 656] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 04 21:29:18.173026 2022] [core:notice] [pid 33980:tid 656] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 04 21:29:18.193023 2022] [mpm_winnt:notice] [pid 33980:tid 656] AH00418: Parent: Created child process 25060
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 25060:tid 600] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 00:00:47.837383 2022] [mpm_winnt:notice] [pid 33980:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 05 00:00:49.409160 2022] [core:warn] [pid 73952:tid 520] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 00:00:49.620160 2022] [mpm_winnt:notice] [pid 73952:tid 520] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 00:00:49.621161 2022] [mpm_winnt:notice] [pid 73952:tid 520] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 00:00:49.621161 2022] [core:notice] [pid 73952:tid 520] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 00:00:49.632158 2022] [mpm_winnt:notice] [pid 73952:tid 520] AH00418: Parent: Created child process 61248
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 25060:tid 600] AH00364: Child: All worker threads have exited.
+[Sun Jun 05 00:00:50.691710 2022] [mpm_winnt:notice] [pid 61248:tid 548] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 01:45:14.468105 2022] [mpm_winnt:notice] [pid 73952:tid 520] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 05 01:45:16.493900 2022] [mpm_winnt:notice] [pid 61248:tid 548] AH00364: Child: All worker threads have exited.
+[Sun Jun 05 01:45:20.311268 2022] [core:warn] [pid 28328:tid 204] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 01:45:20.552268 2022] [mpm_winnt:notice] [pid 28328:tid 204] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 01:45:20.552268 2022] [mpm_winnt:notice] [pid 28328:tid 204] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 01:45:20.552268 2022] [core:notice] [pid 28328:tid 204] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 01:45:20.564265 2022] [mpm_winnt:notice] [pid 28328:tid 204] AH00418: Parent: Created child process 94740
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 94740:tid 548] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 02:25:33.312268 2022] [mpm_winnt:notice] [pid 28328:tid 204] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 05 02:25:34.497505 2022] [core:warn] [pid 49336:tid 492] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 02:25:34.712514 2022] [mpm_winnt:notice] [pid 49336:tid 492] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 02:25:34.713507 2022] [mpm_winnt:notice] [pid 49336:tid 492] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 02:25:34.713507 2022] [core:notice] [pid 49336:tid 492] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 02:25:34.724506 2022] [mpm_winnt:notice] [pid 49336:tid 492] AH00418: Parent: Created child process 4372
+[Sun Jun 05 02:25:35.335315 2022] [mpm_winnt:notice] [pid 94740:tid 548] AH00364: Child: All worker threads have exited.
+[Sun Jun 05 02:25:35.909853 2022] [mpm_winnt:notice] [pid 4372:tid 552] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 16:02:24.997979 2022] [mpm_winnt:crit] [pid 4372:tid 552] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jun 05 16:02:25.017986 2022] [mpm_winnt:warn] [pid 4372:tid 1364] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 05 16:02:27.040517 2022] [mpm_winnt:notice] [pid 4372:tid 552] AH00364: Child: All worker threads have exited.
+[Sun Jun 05 16:02:27.050513 2022] [core:warn] [pid 53344:tid 672] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 16:02:27.191609 2022] [mpm_winnt:notice] [pid 53344:tid 672] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 16:02:27.191609 2022] [mpm_winnt:notice] [pid 53344:tid 672] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 16:02:27.191609 2022] [core:notice] [pid 53344:tid 672] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 16:02:27.206608 2022] [mpm_winnt:notice] [pid 53344:tid 672] AH00418: Parent: Created child process 49112
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 49112:tid 660] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 21:18:43.286655 2022] [mpm_winnt:notice] [pid 53344:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 05 21:18:45.334180 2022] [mpm_winnt:notice] [pid 49112:tid 660] AH00364: Child: All worker threads have exited.
+[Sun Jun 05 21:18:51.650121 2022] [core:warn] [pid 74552:tid 700] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 21:18:56.099616 2022] [mpm_winnt:notice] [pid 74552:tid 700] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 21:18:56.099616 2022] [mpm_winnt:notice] [pid 74552:tid 700] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 21:18:56.100616 2022] [core:notice] [pid 74552:tid 700] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 21:18:56.111619 2022] [mpm_winnt:notice] [pid 74552:tid 700] AH00418: Parent: Created child process 23908
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 23908:tid 508] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 05 23:46:16.417772 2022] [mpm_winnt:notice] [pid 74552:tid 700] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 05 23:46:17.905770 2022] [core:warn] [pid 94500:tid 172] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 05 23:46:18.129771 2022] [mpm_winnt:notice] [pid 94500:tid 172] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 05 23:46:18.130773 2022] [mpm_winnt:notice] [pid 94500:tid 172] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 05 23:46:18.130773 2022] [core:notice] [pid 94500:tid 172] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 05 23:46:18.144771 2022] [mpm_winnt:notice] [pid 94500:tid 172] AH00418: Parent: Created child process 89400
+[Sun Jun 05 23:46:18.442768 2022] [mpm_winnt:notice] [pid 23908:tid 508] AH00364: Child: All worker threads have exited.
+[Thu Jun 09 14:19:14.279319 2022] [mpm_winnt:crit] [pid 89400:tid 600] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jun 09 14:19:14.399319 2022] [mpm_winnt:warn] [pid 89400:tid 1044] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 09 14:19:17.042135 2022] [mpm_winnt:notice] [pid 89400:tid 600] AH00364: Child: All worker threads have exited.
+[Thu Jun 09 14:21:35.909566 2022] [core:warn] [pid 72524:tid 644] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 09 14:21:36.062811 2022] [mpm_winnt:notice] [pid 72524:tid 644] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 09 14:21:36.062811 2022] [mpm_winnt:notice] [pid 72524:tid 644] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 09 14:21:36.062811 2022] [core:notice] [pid 72524:tid 644] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 09 14:21:39.073637 2022] [mpm_winnt:notice] [pid 72524:tid 644] AH00418: Parent: Created child process 26348
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 26348:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 09 15:52:11.007555 2022] [mpm_winnt:notice] [pid 72524:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 09 15:52:13.033018 2022] [mpm_winnt:notice] [pid 26348:tid 608] AH00364: Child: All worker threads have exited.
+[Thu Jun 09 16:11:47.824414 2022] [core:warn] [pid 1684:tid 500] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 09 16:11:48.291407 2022] [mpm_winnt:notice] [pid 1684:tid 500] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 09 16:11:48.291407 2022] [mpm_winnt:notice] [pid 1684:tid 500] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 09 16:11:48.291407 2022] [core:notice] [pid 1684:tid 500] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 09 16:11:48.318412 2022] [mpm_winnt:notice] [pid 1684:tid 500] AH00418: Parent: Created child process 59588
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 59588:tid 708] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 09 17:48:51.946002 2022] [mpm_winnt:notice] [pid 1684:tid 500] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 09 17:48:53.972646 2022] [mpm_winnt:notice] [pid 59588:tid 708] AH00364: Child: All worker threads have exited.
+[Thu Jun 09 18:45:22.839223 2022] [core:warn] [pid 69832:tid 536] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 09 18:45:23.162365 2022] [mpm_winnt:notice] [pid 69832:tid 536] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 09 18:45:23.162365 2022] [mpm_winnt:notice] [pid 69832:tid 536] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 09 18:45:23.162365 2022] [core:notice] [pid 69832:tid 536] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Thu Jun 09 18:45:23.178393 2022] [mpm_winnt:notice] [pid 69832:tid 536] AH00418: Parent: Created child process 93472
+[Thu Jun 09 18:45:24.363697 2022] [mpm_winnt:notice] [pid 93472:tid 472] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 10 20:06:03.562546 2022] [core:warn] [pid 27936:tid 604] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 10 20:06:08.228348 2022] [mpm_winnt:notice] [pid 27936:tid 604] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 10 20:06:08.229351 2022] [mpm_winnt:notice] [pid 27936:tid 604] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 10 20:06:08.229351 2022] [core:notice] [pid 27936:tid 604] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Fri Jun 10 20:06:08.244346 2022] [mpm_winnt:notice] [pid 27936:tid 604] AH00418: Parent: Created child process 86692
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 86692:tid 624] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 10 20:06:45.808995 2022] [mpm_winnt:notice] [pid 27936:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 10 20:06:47.829016 2022] [mpm_winnt:notice] [pid 86692:tid 624] AH00364: Child: All worker threads have exited.
+[Sat Jun 11 02:45:02.230241 2022] [core:warn] [pid 46192:tid 620] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 11 02:45:02.514240 2022] [mpm_winnt:notice] [pid 46192:tid 620] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 11 02:45:02.514240 2022] [mpm_winnt:notice] [pid 46192:tid 620] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 11 02:45:02.514240 2022] [core:notice] [pid 46192:tid 620] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 11 02:45:02.528241 2022] [mpm_winnt:notice] [pid 46192:tid 620] AH00418: Parent: Created child process 32424
+[Sat Jun 11 02:45:03.846241 2022] [mpm_winnt:notice] [pid 32424:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 11 17:34:57.773974 2022] [mpm_winnt:crit] [pid 32424:tid 624] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Jun 11 17:34:57.870927 2022] [mpm_winnt:warn] [pid 32424:tid 576] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 11 17:35:00.019666 2022] [mpm_winnt:notice] [pid 32424:tid 624] AH00364: Child: All worker threads have exited.
+[Sat Jun 11 17:35:07.496253 2022] [core:warn] [pid 56600:tid 780] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 11 17:35:08.091886 2022] [mpm_winnt:notice] [pid 56600:tid 780] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 11 17:35:08.091886 2022] [mpm_winnt:notice] [pid 56600:tid 780] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 11 17:35:08.091886 2022] [core:notice] [pid 56600:tid 780] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 11 17:35:08.157342 2022] [mpm_winnt:notice] [pid 56600:tid 780] AH00418: Parent: Created child process 85140
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 85140:tid 552] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 11 21:21:22.661755 2022] [mpm_winnt:notice] [pid 56600:tid 780] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 11 21:21:24.497315 2022] [core:warn] [pid 71148:tid 604] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 11 21:21:24.680759 2022] [mpm_winnt:notice] [pid 85140:tid 552] AH00364: Child: All worker threads have exited.
+[Sat Jun 11 21:21:24.826148 2022] [mpm_winnt:notice] [pid 71148:tid 604] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sat Jun 11 21:21:24.826148 2022] [mpm_winnt:notice] [pid 71148:tid 604] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sat Jun 11 21:21:24.826148 2022] [core:notice] [pid 71148:tid 604] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sat Jun 11 21:21:24.841295 2022] [mpm_winnt:notice] [pid 71148:tid 604] AH00418: Parent: Created child process 79284
+[Sat Jun 11 21:21:26.083985 2022] [mpm_winnt:notice] [pid 79284:tid 632] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 01:00:04.105052 2022] [mpm_winnt:crit] [pid 79284:tid 632] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jun 12 01:00:04.115054 2022] [mpm_winnt:warn] [pid 79284:tid 1044] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 12 01:00:06.138549 2022] [mpm_winnt:notice] [pid 79284:tid 632] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 01:00:27.450798 2022] [core:warn] [pid 7856:tid 540] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 01:00:27.557729 2022] [mpm_winnt:notice] [pid 7856:tid 540] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 01:00:27.557729 2022] [mpm_winnt:notice] [pid 7856:tid 540] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 01:00:27.557729 2022] [core:notice] [pid 7856:tid 540] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 01:00:27.572728 2022] [mpm_winnt:notice] [pid 7856:tid 540] AH00418: Parent: Created child process 12516
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 12516:tid 696] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 09:04:20.478497 2022] [mpm_winnt:notice] [pid 7856:tid 540] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 09:04:22.443589 2022] [core:warn] [pid 56928:tid 692] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 09:04:22.497718 2022] [mpm_winnt:notice] [pid 12516:tid 696] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 09:04:22.764570 2022] [mpm_winnt:notice] [pid 56928:tid 692] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 09:04:22.764570 2022] [mpm_winnt:notice] [pid 56928:tid 692] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 09:04:22.764570 2022] [core:notice] [pid 56928:tid 692] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 09:04:22.777712 2022] [mpm_winnt:notice] [pid 56928:tid 692] AH00418: Parent: Created child process 48492
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 48492:tid 768] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 09:39:47.314508 2022] [mpm_winnt:notice] [pid 56928:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 09:39:49.337154 2022] [mpm_winnt:notice] [pid 48492:tid 768] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 10:32:00.355304 2022] [core:warn] [pid 11824:tid 600] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 10:32:00.633295 2022] [mpm_winnt:notice] [pid 11824:tid 600] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 10:32:00.633295 2022] [mpm_winnt:notice] [pid 11824:tid 600] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 10:32:00.633295 2022] [core:notice] [pid 11824:tid 600] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 10:32:00.648292 2022] [mpm_winnt:notice] [pid 11824:tid 600] AH00418: Parent: Created child process 35948
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 35948:tid 708] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 10:58:19.374658 2022] [mpm_winnt:notice] [pid 11824:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 10:58:20.794652 2022] [core:warn] [pid 30344:tid 516] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 10:58:21.043650 2022] [mpm_winnt:notice] [pid 30344:tid 516] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 10:58:21.044647 2022] [mpm_winnt:notice] [pid 30344:tid 516] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 10:58:21.044647 2022] [core:notice] [pid 30344:tid 516] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 10:58:21.057647 2022] [mpm_winnt:notice] [pid 30344:tid 516] AH00418: Parent: Created child process 88028
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 35948:tid 708] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 10:58:22.455805 2022] [mpm_winnt:notice] [pid 88028:tid 620] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 11:12:20.369344 2022] [mpm_winnt:notice] [pid 30344:tid 516] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 11:12:22.382625 2022] [mpm_winnt:notice] [pid 88028:tid 620] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 14:39:13.639498 2022] [core:warn] [pid 43660:tid 528] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 14:39:13.915172 2022] [mpm_winnt:notice] [pid 43660:tid 528] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 14:39:13.920167 2022] [mpm_winnt:notice] [pid 43660:tid 528] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 14:39:13.920167 2022] [core:notice] [pid 43660:tid 528] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 14:39:13.930169 2022] [mpm_winnt:notice] [pid 43660:tid 528] AH00418: Parent: Created child process 3140
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 3140:tid 604] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 16:41:35.255466 2022] [mpm_winnt:notice] [pid 43660:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 16:41:37.265214 2022] [mpm_winnt:notice] [pid 3140:tid 604] AH00364: Child: All worker threads have exited.
+[Sun Jun 12 20:13:46.038274 2022] [core:warn] [pid 40984:tid 600] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 20:13:51.951638 2022] [mpm_winnt:notice] [pid 40984:tid 600] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Sun Jun 12 20:13:51.951638 2022] [mpm_winnt:notice] [pid 40984:tid 600] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Sun Jun 12 20:13:51.951638 2022] [core:notice] [pid 40984:tid 600] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Sun Jun 12 20:13:51.963638 2022] [mpm_winnt:notice] [pid 40984:tid 600] AH00418: Parent: Created child process 76732
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 76732:tid 496] AH00354: Child: Starting 64 worker threads.
+[Sun Jun 12 20:34:34.187270 2022] [mpm_winnt:notice] [pid 40984:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jun 12 20:34:36.208126 2022] [mpm_winnt:notice] [pid 76732:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 00:11:31.359138 2022] [core:warn] [pid 67536:tid 560] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 00:11:39.047555 2022] [mpm_winnt:notice] [pid 67536:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 00:11:39.048557 2022] [mpm_winnt:notice] [pid 67536:tid 560] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 00:11:39.048557 2022] [core:notice] [pid 67536:tid 560] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 00:11:39.077556 2022] [mpm_winnt:notice] [pid 67536:tid 560] AH00418: Parent: Created child process 84288
+[Mon Jun 13 00:11:51.498994 2022] [mpm_winnt:notice] [pid 84288:tid 520] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 09:30:30.168980 2022] [mpm_winnt:crit] [pid 84288:tid 520] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jun 13 09:30:30.382798 2022] [mpm_winnt:warn] [pid 84288:tid 684] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jun 13 09:30:32.672839 2022] [mpm_winnt:notice] [pid 84288:tid 520] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 09:30:35.182743 2022] [core:warn] [pid 56116:tid 664] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 09:30:35.312947 2022] [mpm_winnt:notice] [pid 56116:tid 664] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 09:30:35.312947 2022] [mpm_winnt:notice] [pid 56116:tid 664] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 09:30:35.312947 2022] [core:notice] [pid 56116:tid 664] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 09:30:35.329946 2022] [mpm_winnt:notice] [pid 56116:tid 664] AH00418: Parent: Created child process 36000
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 36000:tid 532] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 12:15:41.684413 2022] [mpm_winnt:notice] [pid 56116:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 12:15:43.799258 2022] [mpm_winnt:notice] [pid 36000:tid 532] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 12:15:48.457394 2022] [core:warn] [pid 93468:tid 608] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 12:15:52.988801 2022] [mpm_winnt:notice] [pid 93468:tid 608] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 12:15:52.988801 2022] [mpm_winnt:notice] [pid 93468:tid 608] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 12:15:52.988801 2022] [core:notice] [pid 93468:tid 608] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 12:15:53.003800 2022] [mpm_winnt:notice] [pid 93468:tid 608] AH00418: Parent: Created child process 64472
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 64472:tid 704] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 14:15:48.982058 2022] [mpm_winnt:notice] [pid 93468:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 14:15:50.591416 2022] [core:warn] [pid 30616:tid 652] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 14:15:50.805417 2022] [mpm_winnt:notice] [pid 30616:tid 652] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 14:15:50.805417 2022] [mpm_winnt:notice] [pid 30616:tid 652] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 14:15:50.805417 2022] [core:notice] [pid 30616:tid 652] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 14:15:50.817415 2022] [mpm_winnt:notice] [pid 30616:tid 652] AH00418: Parent: Created child process 5356
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 64472:tid 704] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 14:15:51.932663 2022] [mpm_winnt:notice] [pid 5356:tid 528] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 15:57:35.351067 2022] [mpm_winnt:notice] [pid 30616:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 15:57:37.376218 2022] [mpm_winnt:notice] [pid 5356:tid 528] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 15:57:41.862328 2022] [core:warn] [pid 89252:tid 632] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 15:57:42.128031 2022] [mpm_winnt:notice] [pid 89252:tid 632] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 15:57:42.129030 2022] [mpm_winnt:notice] [pid 89252:tid 632] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 15:57:42.129030 2022] [core:notice] [pid 89252:tid 632] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 15:57:43.080485 2022] [mpm_winnt:notice] [pid 89252:tid 632] AH00418: Parent: Created child process 43512
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 43512:tid 540] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 19:41:52.104156 2022] [mpm_winnt:notice] [pid 89252:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 19:41:53.773220 2022] [core:warn] [pid 53828:tid 580] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 19:41:54.035874 2022] [mpm_winnt:notice] [pid 53828:tid 580] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 19:41:54.035874 2022] [mpm_winnt:notice] [pid 53828:tid 580] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 19:41:54.035874 2022] [core:notice] [pid 53828:tid 580] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 19:41:54.046876 2022] [mpm_winnt:notice] [pid 53828:tid 580] AH00418: Parent: Created child process 80728
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 43512:tid 540] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 19:41:55.055765 2022] [mpm_winnt:notice] [pid 80728:tid 644] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 21:44:19.124539 2022] [mpm_winnt:notice] [pid 53828:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 21:44:20.726288 2022] [core:warn] [pid 73812:tid 208] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 21:44:20.950221 2022] [mpm_winnt:notice] [pid 73812:tid 208] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 21:44:20.951173 2022] [mpm_winnt:notice] [pid 73812:tid 208] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 21:44:20.951173 2022] [core:notice] [pid 73812:tid 208] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 21:44:20.962174 2022] [mpm_winnt:notice] [pid 73812:tid 208] AH00418: Parent: Created child process 82428
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 80728:tid 644] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 21:44:22.188488 2022] [mpm_winnt:notice] [pid 82428:tid 672] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 13 22:42:51.944566 2022] [mpm_winnt:notice] [pid 73812:tid 208] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 22:42:53.961505 2022] [mpm_winnt:notice] [pid 82428:tid 672] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 23:09:22.967318 2022] [core:warn] [pid 89952:tid 692] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 23:09:23.319675 2022] [mpm_winnt:notice] [pid 89952:tid 692] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Mon Jun 13 23:09:23.319675 2022] [mpm_winnt:notice] [pid 89952:tid 692] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Jun 13 23:09:23.319675 2022] [core:notice] [pid 89952:tid 692] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Mon Jun 13 23:09:23.339673 2022] [mpm_winnt:notice] [pid 89952:tid 692] AH00418: Parent: Created child process 41704
+[Tue Jun 14 19:25:32.769896 2022] [core:warn] [pid 50008:tid 664] AH00098: pid file G:/My Drive/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 14 19:25:32.815694 2022] [mpm_winnt:notice] [pid 50008:tid 664] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Jun 14 19:25:32.815694 2022] [mpm_winnt:notice] [pid 50008:tid 664] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Tue Jun 14 19:25:32.815694 2022] [core:notice] [pid 50008:tid 664] AH00094: Command line: 'G:\\My Drive\\server\\Apache24\\bin\\httpd.exe -d G:/My Drive/server/Apache24'
+[Tue Jun 14 19:25:32.828843 2022] [mpm_winnt:notice] [pid 50008:tid 664] AH00418: Parent: Created child process 55884
+[Tue Jun 14 19:25:33.907687 2022] [mpm_winnt:notice] [pid 55884:tid 728] AH00354: Child: Starting 64 worker threads.
+Starting the 'Apache2.4' service
+[Thu Jun 16 12:15:44.995032 2022] [mpm_winnt:crit] [pid 23740:tid 512] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Thu Jun 16 12:18:02.721505 2022] [mpm_winnt:crit] [pid 34256:tid 528] (OS 5)Access is denied.  : AH00378: Failed to start the 'Apache2.4' service
+[Thu Jun 16 18:16:54.146747 2022] [core:warn] [pid 34140:tid 568] AH00098: pid file C:/DEB/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 16 18:16:54.146747 2022] [mpm_winnt:notice] [pid 34140:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 16 18:16:54.146747 2022] [mpm_winnt:notice] [pid 34140:tid 568] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 16 18:16:54.146747 2022] [core:notice] [pid 34140:tid 568] AH00094: Command line: 'C:\\DEB\\Apache24\\bin\\httpd.exe -d C:/DEB/Apache24 -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf'
+[Thu Jun 16 18:16:54.154810 2022] [mpm_winnt:notice] [pid 34140:tid 568] AH00418: Parent: Created child process 26204
+[Thu Jun 16 18:16:54.910079 2022] [mpm_winnt:notice] [pid 26204:tid 472] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 16 18:19:11.280387 2022] [mpm_winnt:notice] [pid 34140:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 16 18:19:14.843150 2022] [mpm_winnt:notice] [pid 26204:tid 472] AH00364: Child: All worker threads have exited.
+[Thu Jun 16 18:19:14.864644 2022] [mpm_winnt:notice] [pid 34140:tid 568] AH00430: Parent: Child process 26204 exited successfully.
+[Thu Jun 16 18:19:15.707710 2022] [mpm_winnt:notice] [pid 9528:tid 580] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 16 18:19:15.715755 2022] [mpm_winnt:notice] [pid 9528:tid 580] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 16 18:19:15.715755 2022] [core:notice] [pid 9528:tid 580] AH00094: Command line: 'C:\\DEB\\Apache24\\bin\\httpd.exe -d C:/DEB/Apache24 -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf'
+[Thu Jun 16 18:19:15.715755 2022] [mpm_winnt:notice] [pid 9528:tid 580] AH00418: Parent: Created child process 15800
+[Thu Jun 16 18:19:16.351772 2022] [mpm_winnt:notice] [pid 15800:tid 4] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 16 18:19:49.187540 2022] [mpm_winnt:notice] [pid 9528:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 16 18:19:51.839042 2022] [mpm_winnt:notice] [pid 15800:tid 4] AH00364: Child: All worker threads have exited.
+[Thu Jun 16 18:19:51.854678 2022] [mpm_winnt:notice] [pid 9528:tid 580] AH00430: Parent: Child process 15800 exited successfully.
+[Thu Jun 16 18:19:52.837141 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Jun 16 18:19:52.837141 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Thu Jun 16 18:19:52.837141 2022] [core:notice] [pid 30228:tid 568] AH00094: Command line: 'C:\\DEB\\Apache24\\bin\\httpd.exe -d C:/DEB/Apache24 -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf'
+[Thu Jun 16 18:19:52.852775 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00418: Parent: Created child process 1504
+[Thu Jun 16 18:19:53.480528 2022] [mpm_winnt:notice] [pid 1504:tid 488] AH00354: Child: Starting 64 worker threads.

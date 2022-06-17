@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        input[type="button"] {
+          width: 250px;
+          height: 25px;
+          background-color: #09666d;
+          border: none;
+          color: white;
+          padding: 30px, 30px, 30px, 30px;
+          text-decoration: double;
+          /* margin: 5px; */
+          cursor: pointer;
+          font: 20px sans-serif;
+          text-align: center;
+        }
+      </style>
+    <!--
+    <link rel="stylesheet" href="mermaid_js/gantt.css">
+    <script src="mermaid_js/mermaid.min.js"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+    <title>Site Map</title>
+</head>
+
+<body>
+    <input type="button" onclick="location.href='../#!index.md';" value="Back to Home page" />
+    <div class="mermaid">
+        
+
+        %%{init:{"theme":"neutral",
+        "themeVariables": {
+        "mainBkg":"#bbffbb",
+        "textColor":"black"
+        }} }%%
+        %%{config: { 'fontFamily': 'Menlo', 'fontSize': 28, 'fontWeight': 400} }%%
+
+        erDiagram
+        Server_folder {
+        folderName server
+        }
+
+        serverroot {
+        folderName Apache24
+        }
+
+        website_home {
+        folderName www_local
+        }
+
+        Server_folder || -- |{ serverroot : contains
+        Server_folder || -- |{ website_home : contains
+        website_home || -- || serverroot : linked
+
+      
+
+    </div>
+    <div class="mermaid">
+      
+    </div>
+</body>
+
+</html>
