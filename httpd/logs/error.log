@@ -1078,3 +1078,11 @@ Starting the 'Apache2.4' service
 [Thu Jun 16 18:19:52.837141 2022] [core:notice] [pid 30228:tid 568] AH00094: Command line: 'C:\\DEB\\Apache24\\bin\\httpd.exe -d C:/DEB/Apache24 -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf'
 [Thu Jun 16 18:19:52.852775 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00418: Parent: Created child process 1504
 [Thu Jun 16 18:19:53.480528 2022] [mpm_winnt:notice] [pid 1504:tid 488] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 24 10:55:56.420553 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 24 10:55:58.458917 2022] [mpm_winnt:notice] [pid 1504:tid 488] AH00364: Child: All worker threads have exited.
+[Fri Jun 24 10:55:58.490167 2022] [mpm_winnt:notice] [pid 30228:tid 568] AH00430: Parent: Child process 1504 exited successfully.
+[Fri Jun 24 10:59:35.034189 2022] [mpm_winnt:notice] [pid 6480:tid 184] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Jun 24 10:59:35.034189 2022] [mpm_winnt:notice] [pid 6480:tid 184] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Fri Jun 24 10:59:35.034189 2022] [core:notice] [pid 6480:tid 184] AH00094: Command line: 'C:\\DEB\\Apache24\\bin\\httpd.exe -d C:/DEB/Apache24 -f C:\\DEB_CloudData\\my_git_repos\\iamdebajyoti.github.io\\httpd\\conf\\httpd.conf'
+[Fri Jun 24 10:59:35.127938 2022] [mpm_winnt:notice] [pid 6480:tid 184] AH00418: Parent: Created child process 10192
+[Fri Jun 24 10:59:36.127934 2022] [mpm_winnt:notice] [pid 10192:tid 176] AH00354: Child: Starting 64 worker threads.
