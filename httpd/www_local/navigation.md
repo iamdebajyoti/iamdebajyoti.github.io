@@ -37,3 +37,5 @@ Web Tools
 [About](./content/about.md)
 
 [<a href="./content/site_map.html">Site Map</a>]
+
+[<a href="./TiddlyWiki__Notebook/TiddlyWiki__Notebook.html">Notebook</a>]

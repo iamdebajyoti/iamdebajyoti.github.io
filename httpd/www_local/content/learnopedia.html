@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh" content="20"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learnopedia</title>
     
@@ -11,9 +12,149 @@
     
 </head>
 <body>
-    <div class="mermaid">
+    <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+        %%{init : {"flowchart":{"curve":"monotoneY"}}}%%
         flowchart LR
-        a --> b
+            qmgr(queue manager)
+            qmgr -- display -->d1{{dspmq / dspmq -O installation}}
+            d1 -- start --> d[strmqm]
+            d1 -- stop --> ap{{active / passive node}}
+            ap --> d
+            ap -- set -->f1[/NO-auto-start flag /]
+            f1 -. on passive node .-> e1[endmqm -i]
+            f1 == on active node ===> e2[endmqm -s 'failover or failback']
+            
+            
+
+
+            
+        </div>
+        <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+            flowchart LR
+                mqut1([MQ Utilities])
+                    smqs1([setmqsize]) -.- def1[increase queue manager file system size]
+                    mqut1 ==> smqs1
+                    synt1[setmqsize -m QMname -s size]       
+                    smqs1 --> check1[\Check QM run environment/] --> check2{{QM uses SAN}}
+                    check2 -- Yes --> res1["command not applicable"]
+                    check2 -- No --> synt1
+
+                    amsputc([amsputc])
+                    mqut1 ==> amsputc
     </div>
-</body>
-</html>
+    <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+        %%{init : {"flowchart":{"curve":"natural"}}}%%
+        flowchart LR
+            mqrc(MQRC - MQ Reason Code)
+            
+            err1(MQ object unavailable)
+            mqrc --> err1
+            
+            o1{{check for MQ object details}}
+            err1 --> o1
+                o1 --No-->ci[\get data from requesor/]
+                ci --> o2[/MQ object details/]
+                o1 -- Yes --> o2
+                o2 --> lg1[check logs]
+                o2 --> hc1[MQ Healthcheck]
+                lg1 --> amq1[current log file]
+                lg1 --> fdc[FDC files]
+                hc1 --> qm1{{QM running?}}
+                qm1 -- Yes --> cl1{{Channel running?}}
+                qm1 -- No --> sqm1[\Start QM/]
+                cl1 -- Yes --> ls1{{Listener running?}}
+                
+            err2(Host not reachable)
+            mqrc --> err2
+                h1{{check for MQ host details - ip address, port number}}
+                err2 --> h1
+
+
+
+    </div>
+    <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+        flowchart LR
+            qmt1(Queue Manager Types)
+            ha1(HA - High Availability)
+            mult1(Multi-Instance)
+            qmt1 --> ha1 & mult1
+    </div>
+    <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+        %%{init : {"flowchart":{"curve":"normal"}}}%%
+        flowchart LR
+            mqrc(mqrc -- MQ return code)
+            m1(mqrc command <br/> to display information <br/> about <br/> symbols, return codes, <br/> and AMQ messages)
+            click m1 "https://www.ibm.com/docs/en/ibm-mq/9.0?topic=reference-mqrc-mq-return-code" "ibm reference" _blank
+            mqrc ==> m1
+            
+            mqrc1(["MQRC_* (reason codes)"])
+            m2(reason code list)
+            click m2 "https://www.ibm.com/docs/en/ibm-mq/9.3?topic=constants-mqrc-reason-codes" "MQRC reason codes" _blank
+            mqrc1 ==> m2
+
+
+            
+    </div>
+    <div class="mermaid" style="overflow:scroll; font: 1em sans-serif;">
+        flowchart TB
+            bash1(bash for MQ)
+            sed1["sed s/%//g ==> replace(s) '%' with 'nothing' globally(g)"]
+            awk1["awk '{ if ($x -''logical operator'' ''value'') print $y;}'"]
+            mail1["mail -s ''subject of the mail'' ''recipient mail id''"]
+
+            bash1 --o sed1 & awk1 & mail1
+        
+     
+        </div>
+        
+
+        <p>
+            A transmission queue is a local queue that is used when a queue manager forwards messages to a remote queue manager
+            through a message channel. The channel provides a one-way link to the remote queue manager. Messages are queued at
+            the transmission queue until the channel can accept them.
+            What is XMIT queue?
+            This attribute specifies the name of the transmission queue from which messages are retrieved. This attribute is
+            required for channels of type sender or server, it is not valid for other channel types.
+        
+        </p>
+        <p>
+        
+            What is difference between remote queue and transmission queue?
+            Transmission queues are a special type of local queue. When the queue manager sends a message to a queue on a remote
+            queue manager, the transmission queue stores the message locally until the queue on the remote queue manager is
+            available.
+        </p>
+        <p>
+            How do you create a transmission queue in MQ?
+            To create a transmission queue, use the WebSphere® MQ Commands (MQSC), as shown in the following examples: Create
+            transmission queue example. DEFINE QLOCAL(QM2) DESCR('Transmission queue to QM2') USAGE(XMITQ) Create remote queue
+            example.
+        </p>
+        <p>
+            What is alias queue in MQ?
+            An alias queue is an IBM® MQ object that you can use to access another queue or a topic. This means that more than
+            one program can work with the same queue, accessing it using different names.
+        </p>
+        <p>
+            How many types of commands do we have in MQ?
+            The table in this topic shows the three categories of control commands: queue manager commands, channel commands,
+            and utility commands.
+        </p>
+        <p>
+            How many types of commands do we have in MQ?
+            The table in this topic shows the three categories of control commands: queue manager commands, channel commands,
+            and utility commands.
+        </p>
+        <p>
+            The main difference between queue and topic is that queue is the message-oriented middleware used in point to point
+            message domain while the topic is the message-oriented middleware used in publisher-subscriber message domain.
+        </p>
+
+
+
+
+    </body>
+    
+    </html>
+    
+    
