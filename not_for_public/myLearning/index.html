@@ -263,3 +263,28 @@ Conclusion
     04:12:37 - 04:12:55
     Thanks!
     Sarah thanks the audience and lets them know where they can send all their awesome Codepens!
+
+
+
+
+
+    BASH Gems
+
+
+    Little trick to debugging problems like this. Add these lines to the top of your script:
+
+export PS4="\$LINENO: "
+set -xv
+The set -xv will print out each line before it is executed, and then the line once the shell interpolates variables, etc. The $PS4 is the prompt used by set -xv. This will print the line number of the shell script as it executes. You'll be able to follow what is going on and where you may have problems.
+
+Here's an example of a test script:
+
+#! /bin/bash
+
+export PS4="\$LINENO: "
+set -xv
+
+
+
+
+

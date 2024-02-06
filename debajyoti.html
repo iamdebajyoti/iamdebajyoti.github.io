@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <html style="width: 1000px; height: 800px;">
 <head>
 </head>
@@ -10,6 +11,142 @@ Strictly for personal use
 1. may dump
 
 2. 3 ssl sha2 non-prod
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ToDo, POR, FAQ</title>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/md-block@0.0.1/md-block.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/md-block@0.0.1/prism.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/md-block@0.0.1/prism.css">
+<style>
+    md-block {
+            /* white-space: pre; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://momentjs.com/downloads/moment-timezone-with-data-1970-2030.js"></script>
+<script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+<link rel="stylesheet" href="./styles/first_look.css">
+
+</head>
+
+<body>
+<div id=CBA_MQ_SideNote style="padding-left:16px">
+<md-block>
+
+
+## ToDos for <span id="curDate"></span> and beyond
+
+1. [ ] <b><u>Submit all investment proofs before 5th January</u></b>
+1. [ ] Start SPLUNK training
+1. [ ] Organize OneDrive folder
+1. [ ] MQ Controls - raise non-prod changes
+1. [ ] Complete the 1st round coding of ValueTime
+1. [ ] Complete the 1st round coding of WalletStory
+1. [ ] MQ Controls - complete data collection for the prod qmgrs
+1. [ ] MQ Controls - plan changes for the prod qmgrs
+1. [ ] MQ SSL automation - complete the tool design
+1. [ ] <b>Move 2 SBI accounts to Horamavu - online</b>
+1. [ ] <u>Set up SIP for SSY account</u>
+1. [ ] Timesheet for December 2023
+1. [ ] Timesheet for January 2024
+1. [ ] MQ Ops activity tracker for January 2024 - ~~week1 ~~ ~~week2 ~~ ~~week3 ~~ ~~week4 ~~ ~~week5 ~~
+
+## ToDos cleared so far
+
+1. [x] <u>House rent for December 2023</u>
+1. [x] *Check and submit expense report for oncall mobile for December*
+1. [x] <u>Create NPS Account</u>
+1. [x] <u>Clear last 3 months school fees (DPS)</u>
+1. [x] <u>Transfer January 2024 funds to Piya</u>
+1. [x] Timesheet for October 2023, November 2023
+1. [x] Worktracker excel (local)
+1. [x] Check and submit expense report for oncall mobile for November
+1. [x] INC for Ron's old request (GMT)
+1. [x] Write gift labels; Wrap gifts
+1. [x] <b><u>Despatch the gift items on 3rd Jan morning</u></b>
+1. [x] MQ Ops activity tracker for December 2023 - ~~week1~~ ~~week2~~ ~~week3~~ ~~week4~~ ~~week5~~
+
+
+
+
+
+
+Acknowledgement Number	HPMC11541302
+Name of Subscriber	DEBAJYOTI DUTTA   
+Receipt Date	04-01-2024 06:17:50
+
+
+
+
+---
+
+---
+
+### Date Time Samples
+
+</md-block>
+</div>
+
+
+
+
+<ol>
+    <li><span id="curDate1"></span></li>
+    <li><span id="curDate2"></span></li>
+    <li><span id="curDate3"></span></li>
+    <li><span id="curDate4"></span></li>
+    <li><span id="curDate5"></span></li>
+    <li><span id="curDate6"></span></li>
+    <li><span id="curDate7"></span></li>
+    <li><span id="curDate8"></span></li>
+    <li><span id="curDate9"></span></li>
+</ol>
+<script>
+    var todayy = new Date();
+    var today = moment(todayy).tz("Asia/Kolkata");
+    
+    var todaynow1 = todayy.toDateString();
+    var todaynow2 = todayy.toISOString().split("T")[0];
+    var todaynow3 = todayy.toJSON();
+    var todaynow4 = todayy.toLocaleDateString();
+    var todaynow5 = todayy.toLocaleString();
+    var todaynow6 = todayy.toLocaleTimeString();
+    var todaynow7 = todayy.toString();
+    var todaynow8 = todayy.toTimeString();
+    var todaynow9 = todayy.toUTCString();
+    
+    document.getElementById("curDate").innerHTML = today.format("dddd, YYYY-MM-DD");
+
+    document.getElementById("curDate1").innerHTML = todaynow1;
+    document.getElementById("curDate2").innerHTML = todaynow2;
+    document.getElementById("curDate3").innerHTML = todaynow3;
+    document.getElementById("curDate4").innerHTML = todaynow4;
+    document.getElementById("curDate5").innerHTML = todaynow5;
+    document.getElementById("curDate6").innerHTML = todaynow6;
+    document.getElementById("curDate7").innerHTML = todaynow7;
+    document.getElementById("curDate8").innerHTML = todaynow8;
+    document.getElementById("curDate9").innerHTML = todaynow9;
+
+</script>
+
+
+</body>
+</html>
+>>>>>>> Stashed changes
 
 
         
