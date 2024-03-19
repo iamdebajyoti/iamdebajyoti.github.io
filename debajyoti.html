@@ -36,10 +36,8 @@
 
 ## ToDos for <span id="curDate"></span> and beyond
 
-1. [x] <b><u>Re-Submit all rejected investment proofs before 5th February</u></b>
 1. [ ] Start SPLUNK training
 1. [ ] Organize OneDrive folder
-1. [ ] MQ Controls - raise non-prod changes
 1. [ ] Complete the 1st round coding of ValueTime
 1. [ ] Complete the 1st round coding of WalletStory
 1. [ ] MQ Controls - complete data collection for the prod qmgrs
@@ -50,17 +48,63 @@
 1. [ ] Timesheet for February 2024
 1. [ ] Submit Oncall bill for January 2024
 1. [ ] MQ Ops activity tracker for February 2024 - ~~week1 ~~ ~~week2 ~~ ~~week3 ~~ ~~week4 ~~ ~~week5 ~~
+1. [ ] Non-Prod QMGR Config backup dump status. 
+1. [ ] 
+1. [ ] 
+1. [ ] 
+1. [ ] 
+1. [ ] 
+1. [ ] 
+1. [ ] 
+
+## MQ Controls
+
+    1. [ ] MQ Controls - non-prod (SDR/RCVR)
+        1. [ ] MQA76
+            1. [x] Analyze
+            1. [x] Remediate
+        1. [ ] MQB76
+            1. [ ] Analyze
+            1. [ ] Remediate
+        1. [ ] MQC76
+            1. [ ] Analyze
+            1. [ ] Remediate
+        1. [ ] MQD76
+            1. [ ] Analyze
+            1. [ ] Remediate
+        1. [ ] MQE76
+            1. [ ] Analyze
+            1. [ ] Remediate
+
+
+    1. [ ] MQ Controls - prod (SDR/RCVR)
 
 ## Confluence documentation
 
 * Confluence topics
-    1. [ ] AS400
-        1. [ ] Midasdev
-        1. [ ] i90
-    1. [ ] MQIPT
+    1. [ ] <b>AS400</b>
+        1. [ ] Navigating IBM MQ on IBM iSeries (AS400) via MIDASDEV
+    1. [ ] <b>MQIPT</b>
+        1. [ ] MQIPT TVT activity for Linux patching changes
+    1. [ ] <b>Sterling GMBOX</b>
+        1. [ ] Global Mailbox (Sterling) queue manager deployment and associated MQ installation
+    1. [ ] <b>MQ installation and QMGR upgrade</b>
+        1. [ ] AIX - MQ version 9.0.0.18 installation (fix pack / base pack+ fix pack)
+    1. [ ] <b>SSL</b>
+        1. [ ] MQIPT(new instances) SSL Cert Renewal SOP (Prod, DR, Stg)
+        1. [x] The Venafi steps for a brand new certificate request from scratch
+        1. [ ] SSL - Knowledge in KiloBytes
+        1. [x] CHG0105352 - Enterprise MQ Hub - Prod : Adding the G2 root and Intermediate certs into qmgrs KDB file : PAPR01
+        1. [x] MQExplorer Certificate Renewal
+    1. [ ] <b>Others</b>
+        1. [x] MPManager SSH client ( alternative to SuperPuTTY and MobaXterm)
+        1. [ ] MQ Monitoring ( SPLUNK & SCOM ) At a glance
+        1. [ ] SCOM and Splunk Deployment Bird's Eye View
+    
 
 ## ToDos cleared so far
 
+1. [ ] ~~<b><u>Re-Submit all rejected investment proofs before 5th February</u></b>~~
 1. [x] Timesheet for December 2023
 1. [x] Timesheet for January 2024
 1. [x] MQ Ops activity tracker for January 2024 - ~~week1~~ ~~week2~~ ~~week3~~ ~~week4~~ ~~week5~~
@@ -114,9 +158,14 @@ Receipt Date	04-01-2024 06:17:50
     <li><span id="curDate9"></span></li>
 </ol>
 <script>
+    
+    
     var todayy = new Date();
     var today = moment(todayy).tz("Asia/Kolkata");
     
+    document.getElementById("curDate").innerHTML = today.format("dddd, YYYY-MM-DD");
+
+
     var todaynow1 = todayy.toDateString();
     var todaynow2 = todayy.toISOString().split("T")[0];
     var todaynow3 = todayy.toJSON();
@@ -127,8 +176,6 @@ Receipt Date	04-01-2024 06:17:50
     var todaynow8 = todayy.toTimeString();
     var todaynow9 = todayy.toUTCString();
     
-    document.getElementById("curDate").innerHTML = today.format("dddd, YYYY-MM-DD");
-
     document.getElementById("curDate1").innerHTML = todaynow1;
     document.getElementById("curDate2").innerHTML = todaynow2;
     document.getElementById("curDate3").innerHTML = todaynow3;
@@ -144,3 +191,15 @@ Receipt Date	04-01-2024 06:17:50
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
