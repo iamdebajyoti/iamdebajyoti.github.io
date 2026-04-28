@@ -1,0 +1,10316 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="expires" CONTENT="Tue, 11 Nov 1980 01:00:00 GMT">
+<script language="javascript" src="/infojsp/includes/activepath.js"></script>
+<script language="JavaScript" src="/infojsp/includes/validationfunction.js"></script>
+<script language="javascript" src="/jsfiles/alertMsg.js"></script>
+<script language="javascript" src="/jsfiles/HBSTalertMsg.js"></script>
+<script language="javascript">
+var strUserClass="";
+var strAllCards="";
+
+var NS6 = (document.getElementById&&!document.all) ? true : false;
+if(NS6){
+        strUserClass=CBOL_CHK_top.topUserClass;
+        strAllCards=CBOL_CHK_top.topAllCards;
+}
+else{
+if(top.CBOL){
+        strUserClass=top.CBOL.topUserClass;
+        strAllCards=top.CBOL.topAllCards;
+		}else{
+        strUserClass=top.CONTROL.cbol.topUserClass;
+        strAllCards=top.CONTROL.cbol.topAllCards;
+}
+}
+
+
+
+</script>
+</head>
+
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
+<form name="f1" method="post" >
+<input type="hidden" name="codeType" value=""/> 
+<input type="hidden" name="eaccno" value=""/>
+<input type="hidden" name="Key" value=""/>
+<table border="0" cellspacing="1" cellpadding="0" width="605">
+<tr>
+<td align="center" height="12" colspan="6">
+<img height="12" width="450" src="/infojsp/images/accsumhd.gif"></td>
+</tr>
+
+<tr>
+<td class="ar" bgcolor="#006699" align="center">
+<font class="ar" color="#FFFFFF" face="Arial, Helvetica, sans-serif">
+<b>Savings Account Number :  5-7XX0XX-X03</b>
+
+</font>
+<input type=hidden name=acctdesc value="Savings">
+
+<input type=hidden name=acctinfo value="5--7XX0X-X-X">
+</td>
+</tr>
+</table>
+
+<table bordercolor="violet" cellspacing="1" cellpadding="0" border="0" width="605">
+<tr align="center">
+<td valign="top">
+<table bordercolor="Red" cellpadding="0" cellspacing="0" border="0" align="left" width="605">
+<tr>
+
+<td height="60" colspan="3" class="ar"><b><span class="ar3"> DEBAJYOTI DUTTA</span></b>
+<input type=hidden name=custrname value="DEBAJYOTI DUTTA">
+
+<br>
+<span class="arb">
+<font color="#666666"><b>Savings</b><b> Account no.</b>
+</font>
+</span>5-7XX0XX-X03<br>
+<font color="#666666">
+<b><span class="arb">Summary of Account information  as of :</span></b>03/07/2024
+</font>
+<input name="hidaccinfo" type="hidden" value=5-7XX0XX-X03>
+</td>
+</tr>
+
+<tr>
+<td class="ar">Closing Balance </td><td align="right" class="ar">10,44,999.25&nbsp;
+				</td><td class="ar">&nbsp; INR</td>
+</tr>
+
+
+<tr>
+<td class="ar">
+Line Amount
+
+<font color="#FF0000">&nbsp;*</font> 
+
+	
+
+
+
+
+<input type="hidden" name=lineflag value="false">
+</td>
+<td align="right" class="ar">0.00&nbsp;
+				 </td><td class="ar">&nbsp; INR</td>
+		 <input type=hidden name=lineamt value="0.00">
+</tr>
+
+
+
+<tr>
+<td class="ar">Funds in clearing </td><td align="right" class="ar">0.00&nbsp;
+</td>
+<input type="hidden" name=fundsinclearing value="0.00">				 				 
+				 <td class="ar">&nbsp;
+			  INR</td>
+</tr>
+
+
+
+<tr>
+<td class="ar">Multi deposit balance </td><td align="right" class="ar">1,00,000.00&nbsp;
+				 </td>
+ <input type="hidden" name=multidepositbal value="1,00,000.00">
+				 <td class="ar">&nbsp;
+			  INR</td>
+</tr>
+
+<tr>
+<td class="ar">Money Multiplier Balance</td><td align="right" class="ar">0.00&nbsp;
+			   </td>
+<input type="hidden" name=moneymultiplierbal value="0.00">
+			   <td class="ar">&nbsp;
+			INR</td>
+
+</tr>
+
+
+
+
+<tr>
+<td class="ar">Withdrawable Balance<font color="#FF0000">&nbsp;**</font></td>
+<td align="right" class="ar">11,44,999.25&nbsp;
+				</td>
+<input type="hidden" name=withdrawablebal value="11,44,999.25">
+				<td class="ar">&nbsp;
+			   INR</td>
+</tr>
+
+<tr>
+<td class="ar">Earmarking Amount</td>
+<td align="right" class="ar">0.00&nbsp;
+				</td>
+<input type="hidden" name=earmarkamount value="0.00">
+				<td class="ar">&nbsp;
+			   INR</td>
+</tr>
+
+<br>
+
+
+<tr>
+<td colspan="4" class="ar1"><i>
+<font color="maroon"><p>
+<font color="#FF0000">**</font>&nbsp;Withdrawable balance: Your withdrawable balance is the sum of your current balance, multiple deposit and money<br>&nbsp;&nbsp;&nbsp;&nbsp;multiplier. Funds in clearing are not part of your withdrawable balance. <br></p>
+
+
+<font color="maroon"><p>
+<font color="#FF0000">*</font>&nbsp&nbsp;Line amount: This is applicable only for current and ready credit(OD) account customers.
+</p></font>
+<br>
+</i></td>
+</tr>
+
+
+
+
+  <tr>
+  <td align="center" height="12" colspan="6" width="605">
+  </td>
+  </tr>
+
+
+
+  <tr>
+  <td colspan="5">
+  <table bordercolor="blue" cellpadding="0" cellspacing="1" width="605" border="0">
+
+	
+
+
+
+
+<tr>
+<td class="arb" colspan="2">
+<font color="#006699">
+<b>Statement of account from </b>01/04/2024 to 03/07/2024	</font>
+</td>
+<input type=hidden name=fromdate value="01/04/2024">
+<input type=hidden name=todate value="03/07/2024">
+<td class="ar1" align="right"></td>
+</tr>
+
+
+<tr>
+<td height="1" width="70"></td>
+<td height="1" width="280"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+</tr>
+
+
+<tr>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Date</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Description</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Withdrawals</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Deposits </b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Balance </b></td>
+
+</tr>
+
+<tr>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC" align="left"> <b>Opening Balance</b></td>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC" align="right"> 10,24,296.44</td>
+<input type=hidden name=openingbal value="1024296.44">
+</td>
+</tr>
+
+</tr>
+<tr></tr>
+<input name="hidTrnamt" type="hidden">
+
+<tr>
+
+<input type=hidden name=dateval value="02/04/2024">
+
+<td class="ar" align="center"  width="10">
+02/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 409211957893, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 409211957893, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+35.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=35.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/04/2024">
+
+<td class="ar" align="center"  width="10">
+02/04/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ188230 -INDB0000098 '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ188230 -INDB0000098 </td>
+
+
+
+<td class="ar" align="right">
+1,750.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1750.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/04/2024">
+
+<td class="ar" align="center"  width="10">
+02/04/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ185172 -INDB0000098 '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ185172 -INDB0000098 </td>
+
+
+
+<td class="ar" align="right">
+1,750.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1750.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/04/2024">
+
+<td class="ar" align="center"  width="10">
+02/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 409341480551, breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 409341480551, breakfast </td>
+
+
+
+<td class="ar" align="right">
+35.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=35.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/04/2024">
+
+<td class="ar" align="center"  width="10">
+02/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bharatpe.XXXXXX3946@icici,REF NO - 409343239828, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bharatpe.XXXXXX3946@icici,REF NO - 409343239828, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,20,696.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409430778434, Household Expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409430778434, Household Expenses </td>
+
+
+
+<td class="ar" align="right">
+12,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409423846317, For Pakhee '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409423846317, For Pakhee </td>
+
+
+
+<td class="ar" align="right">
+10,675.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10675.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409457081648, Family Expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409457081648, Family Expenses </td>
+
+
+
+<td class="ar" align="right">
+12,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX2198, Rent for March 2024 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX2198, Rent for March 2024 </td>
+
+
+
+<td class="ar" align="right">
+9,775.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9775.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409489767507, Piyu personal expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409489767507, Piyu personal expenses </td>
+
+
+
+<td class="ar" align="right">
+5,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 409469874453, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 409469874453, Lunch </td>
+
+
+
+<td class="ar" align="right">
+169.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=169.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrn6w92pdmma@paytm,REF NO - 409446687996, evening snacks '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrn6w92pdmma@paytm,REF NO - 409446687996, evening snacks </td>
+
+
+
+<td class="ar" align="right">
+24.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=24.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/04/2024">
+
+<td class="ar" align="center"  width="10">
+03/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409416699126, GOIITJEE April 2024 installment '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 409416699126, GOIITJEE April 2024 installment </td>
+
+
+
+<td class="ar" align="right">
+38,168.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,31,885.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=38168.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/04/2024">
+
+<td class="ar" align="center"  width="10">
+04/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 409547862524, COLLECT '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 409547862524, COLLECT </td>
+
+
+
+<td class="ar" align="right">
+40,400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=40400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/04/2024">
+
+<td class="ar" align="center"  width="10">
+04/04/2024</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#AXCT409563055634-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080666202042 '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#AXCT409563055634-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080666202042 </td>
+
+
+
+<td class="ar" align="right">
+10,400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,81,085.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/04/2024">
+
+<td class="ar" align="center"  width="10">
+05/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 409652473778, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 409652473778, Lunch </td>
+
+
+
+<td class="ar" align="right">
+149.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=149.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/04/2024">
+
+<td class="ar" align="center"  width="10">
+05/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011qbpjlubu86b@paytm,REF NO - 409657229581, Tuborg beer '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011qbpjlubu86b@paytm,REF NO - 409657229581, Tuborg beer </td>
+
+
+
+<td class="ar" align="right">
+300.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,80,636.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=300.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/04/2024">
+
+<td class="ar" align="center"  width="10">
+06/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX3484@ybl,REF NO - 409757215144, Dinner '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX3484@ybl,REF NO - 409757215144, Dinner </td>
+
+
+
+<td class="ar" align="right">
+270.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,80,366.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=270.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="08/04/2024">
+
+<td class="ar" align="center"  width="10">
+08/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011nokhokubdxv@paytm,REF NO - 409960846120, breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011nokhokubdxv@paytm,REF NO - 409960846120, breakfast </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,80,316.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/04/2024">
+
+<td class="ar" align="center"  width="10">
+09/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 410031270715, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrlj3w21wbv7@paytm,REF NO - 410031270715, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+35.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=35.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/04/2024">
+
+<td class="ar" align="center"  width="10">
+09/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bharatpe.XXXXXX3946@icici,REF NO - 410063678740, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bharatpe.XXXXXX3946@icici,REF NO - 410063678740, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+28.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,80,253.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=28.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/04/2024">
+
+<td class="ar" align="center"  width="10">
+10/04/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:378894385                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:378894385                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+781.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=781.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/04/2024">
+
+<td class="ar" align="center"  width="10">
+10/04/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:378894273                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:378894273                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+24,268.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,55,204.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=24268.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/04/2024">
+
+<td class="ar" align="center"  width="10">
+12/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 446939560228, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 446939560228, Lunch </td>
+
+
+
+<td class="ar" align="right">
+149.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=149.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/04/2024">
+
+<td class="ar" align="center"  width="10">
+12/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPEXXXXXXX1908@yesbankltd,REF NO - 410394646167, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPEXXXXXXX1908@yesbankltd,REF NO - 410394646167, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+350.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,54,705.44
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=350.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/04/2024">
+
+<td class="ar" align="center"  width="10">
+15/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To airtelcommonpool@mairtel,REF NO - XXXXXXXX6290, Payment from Airtel ThanksApp '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To airtelcommonpool@mairtel,REF NO - XXXXXXXX6290, Payment from Airtel ThanksApp </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/04/2024">
+
+<td class="ar" align="center"  width="10">
+15/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bpcl.billdesk@hdfcbank,REF NO - XXXXXXXX9500, BPCL '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bpcl.billdesk@hdfcbank,REF NO - XXXXXXXX9500, BPCL </td>
+
+
+
+<td class="ar" align="right">
+805.50
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=805.50>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/04/2024">
+
+<td class="ar" align="center"  width="10">
+15/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410665130583, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410665130583, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+20.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=20.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/04/2024">
+
+<td class="ar" align="center"  width="10">
+15/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 410630756893, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 410630756893, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+38.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,53,253.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=38.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="16/04/2024">
+
+<td class="ar" align="center"  width="10">
+16/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To olamoneyXX5972.rzp@hdfcbank,REF NO - 447314947591, UPI '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To olamoneyXX5972.rzp@hdfcbank,REF NO - 447314947591, UPI </td>
+
+
+
+<td class="ar" align="right">
+1,027.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1027.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="16/04/2024">
+
+<td class="ar" align="center"  width="10">
+16/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410725608602, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410725608602, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="16/04/2024">
+
+<td class="ar" align="center"  width="10">
+16/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrtz83a7oeck@paytm,REF NO - 410778261390, lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrtz83a7oeck@paytm,REF NO - 410778261390, lunch </td>
+
+
+
+<td class="ar" align="right">
+153.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,52,043.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=153.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/04/2024">
+
+<td class="ar" align="center"  width="10">
+17/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To easemytrip.payu@icici,REF NO - XXXXXXXX1870, Upi Transaction '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To easemytrip.payu@icici,REF NO - XXXXXXXX1870, Upi Transaction </td>
+
+
+
+<td class="ar" align="right">
+12,515.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12515.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/04/2024">
+
+<td class="ar" align="center"  width="10">
+17/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 410873413754, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 410873413754, Lunch </td>
+
+
+
+<td class="ar" align="right">
+120.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,39,408.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=120.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="18/04/2024">
+
+<td class="ar" align="center"  width="10">
+18/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410978924694, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 410978924694, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="18/04/2024">
+
+<td class="ar" align="center"  width="10">
+18/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 410950357748, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 410950357748, Lunch </td>
+
+
+
+<td class="ar" align="right">
+169.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,39,209.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=169.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/04/2024">
+
+<td class="ar" align="center"  width="10">
+19/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411004405870, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411004405870, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/04/2024">
+
+<td class="ar" align="center"  width="10">
+19/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 447629407712, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 447629407712, Lunch </td>
+
+
+
+<td class="ar" align="right">
+95.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,39,084.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=95.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/04/2024">
+
+<td class="ar" align="center"  width="10">
+20/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXXX0118rvn08iwsy2@paytm,REF NO - 411162452800, Water 20 litres x 2 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXXX0118rvn08iwsy2@paytm,REF NO - 411162452800, Water 20 litres x 2 </td>
+
+
+
+<td class="ar" align="right">
+80.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,39,004.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=80.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="22/04/2024">
+
+<td class="ar" align="center"  width="10">
+22/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To rajashiva0948@oksbi,REF NO - 411311678617, Gas delivery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To rajashiva0948@oksbi,REF NO - 411311678617, Gas delivery </td>
+
+
+
+<td class="ar" align="right">
+40.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,38,964.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=40.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/04/2024">
+
+<td class="ar" align="center"  width="10">
+23/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411479620713, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411479620713, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/04/2024">
+
+<td class="ar" align="center"  width="10">
+23/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 448038305227, UPI '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 448038305227, UPI </td>
+
+
+
+<td class="ar" align="right">
+100.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=100.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/04/2024">
+
+<td class="ar" align="center"  width="10">
+23/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrc008tdwdwr@paytm,REF NO - 411405553244, evening snacks '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrc008tdwdwr@paytm,REF NO - 411405553244, evening snacks </td>
+
+
+
+<td class="ar" align="right">
+45.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,38,789.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=45.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/04/2024">
+
+<td class="ar" align="center"  width="10">
+24/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411552407974, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411552407974, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/04/2024">
+
+<td class="ar" align="center"  width="10">
+24/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101ggk85ebzaxis@paytm,REF NO - 411543621416, Gold Flake '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101ggk85ebzaxis@paytm,REF NO - 411543621416, Gold Flake </td>
+
+
+
+<td class="ar" align="right">
+72.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=72.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/04/2024">
+
+<td class="ar" align="center"  width="10">
+24/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 411500547299, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 411500547299, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+140.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=140.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/04/2024">
+
+<td class="ar" align="center"  width="10">
+24/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPEXXXXXXX1776@yesbankltd,REF NO - 411532334790, Pay to BharatPe Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPEXXXXXXX1776@yesbankltd,REF NO - 411532334790, Pay to BharatPe Merchant </td>
+
+
+
+<td class="ar" align="right">
+184.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,38,363.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=184.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/04/2024">
+
+<td class="ar" align="center"  width="10">
+25/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411603690028, Breakfast and Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411603690028, Breakfast and Lunch </td>
+
+
+
+<td class="ar" align="right">
+90.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=90.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/04/2024">
+
+<td class="ar" align="center"  width="10">
+25/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To ppr.X0268.03062023.00036026@cnrb,REF NO - 411610651919, tea '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To ppr.X0268.03062023.00036026@cnrb,REF NO - 411610651919, tea </td>
+
+
+
+<td class="ar" align="right">
+28.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=28.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/04/2024">
+
+<td class="ar" align="center"  width="10">
+25/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To gpay -XXXXXXX5749@okbizaxis,REF NO - 411622476624, Dinner '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To gpay -XXXXXXX5749@okbizaxis,REF NO - 411622476624, Dinner </td>
+
+
+
+<td class="ar" align="right">
+135.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=135.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/04/2024">
+
+<td class="ar" align="center"  width="10">
+25/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXXX0118rvn08iwsy2@paytm,REF NO - 411685175472, Grocery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXXX0118rvn08iwsy2@paytm,REF NO - 411685175472, Grocery </td>
+
+
+
+<td class="ar" align="right">
+350.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,37,760.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=350.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="26/04/2024">
+
+<td class="ar" align="center"  width="10">
+26/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411767370416, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 411767370416, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+65.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,37,695.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=65.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412042769888, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412042769888, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX4449, Payment from PhonePe '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX4449, Payment from PhonePe </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101ggk85ebzaxis@paytm,REF NO - 412022939450, tea '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101ggk85ebzaxis@paytm,REF NO - 412022939450, tea </td>
+
+
+
+<td class="ar" align="right">
+10.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 448682094242, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 448682094242, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+60.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=60.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='Payment for Credit Card No. 5546XXX2XXXX4839 DEBAJYOTI DUTTA '>
+
+<td class="ar" height="55">
+Payment for Credit Card No. 5546XXX2XXXX4839 DEBAJYOTI DUTTA </td>
+
+
+
+<td class="ar" align="right">
+1,387.48
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1387.48>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/04/2024">
+
+<td class="ar" align="center"  width="10">
+29/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011p8pbrdgt37g@paytm,REF NO - 412077180843, Bakery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011p8pbrdgt37g@paytm,REF NO - 412077180843, Bakery </td>
+
+
+
+<td class="ar" align="right">
+230.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+8,35,368.82
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=230.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="30/04/2024">
+
+<td class="ar" align="center"  width="10">
+30/04/2024</td>
+
+<input type=hidden name=descval value='NEFT INWARD                                                 NEFT IN UTR CITIN24460510485 FROM CBA SERVICES PRIVATE LIMI N121243009552961T Remitter Address 1Remitter Address 2Remitter Address 3Remitter Address 4 HDFC BANK '>
+
+<td class="ar" height="55">
+NEFT INWARD                                                 NEFT IN UTR CITIN24460510485 FROM CBA SERVICES PRIVATE LIMI N121243009552961T Remitter Address 1Remitter Address 2Remitter Address 3Remitter Address 4 HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+1,77,182.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=177182.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="30/04/2024">
+
+<td class="ar" align="center"  width="10">
+30/04/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 448757737662, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 448757737662, Lunch </td>
+
+
+
+<td class="ar" align="right">
+100.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,12,450.82
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=100.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/05/2024">
+
+<td class="ar" align="center"  width="10">
+01/05/2024</td>
+
+<input type=hidden name=descval value='NEFT INWARD                                                 NEFT IN UTR CITIN24462528190 FROM CBA SERVICES PRIVATE LIMI N122243012831057T NO 1000 NO 2000 NO 4000 WEWORK NXTTOWER 1 MANYATA TECH PARK ROADTHANISANDRA HDFC BANK '>
+
+<td class="ar" height="55">
+NEFT INWARD                                                 NEFT IN UTR CITIN24462528190 FROM CBA SERVICES PRIVATE LIMI N122243012831057T NO 1000 NO 2000 NO 4000 WEWORK NXTTOWER 1 MANYATA TECH PARK ROADTHANISANDRA HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+513.30
+</td>
+
+<td class="ar" align="right">
+
+10,12,964.12
+
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=513.30>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/05/2024">
+
+<td class="ar" align="center"  width="10">
+02/05/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ188230 -INDB0000098 '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ188230 -INDB0000098 </td>
+
+
+
+<td class="ar" align="right">
+1,749.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1749.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/05/2024">
+
+<td class="ar" align="center"  width="10">
+02/05/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ185172 -INDB0000098 '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to BAJAJ FINANCE LIMITE:NACH00000000023487:BAJAJ FINANCE LIMITED Refno:410ECFKJ185172 -INDB0000098 </td>
+
+
+
+<td class="ar" align="right">
+1,749.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1749.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/05/2024">
+
+<td class="ar" align="center"  width="10">
+02/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412381785906, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412381785906, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/05/2024">
+
+<td class="ar" align="center"  width="10">
+02/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 448988742344, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 448988742344, Lunch </td>
+
+
+
+<td class="ar" align="right">
+169.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=169.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/05/2024">
+
+<td class="ar" align="center"  width="10">
+02/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BILLDESKUTILITY@ybl,REF NO - XXXXXXXX8603, Payment from PhonePe '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BILLDESKUTILITY@ybl,REF NO - XXXXXXXX8603, Payment from PhonePe </td>
+
+
+
+<td class="ar" align="right">
+4,111.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,05,156.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=4111.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412423408169, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 412423408169, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412441272247, Households Expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412441272247, Households Expenses </td>
+
+
+
+<td class="ar" align="right">
+12,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412495225230, For Pakhee '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412495225230, For Pakhee </td>
+
+
+
+<td class="ar" align="right">
+10,675.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10675.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412495611328, Family Expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412495611328, Family Expenses </td>
+
+
+
+<td class="ar" align="right">
+12,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412431871806, Piyu personal expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 412431871806, Piyu personal expenses </td>
+
+
+
+<td class="ar" align="right">
+5,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/05/2024">
+
+<td class="ar" align="center"  width="10">
+03/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 412449797216, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 412449797216, Lunch </td>
+
+
+
+<td class="ar" align="right">
+120.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,64,331.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=120.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/05/2024">
+
+<td class="ar" align="center"  width="10">
+04/05/2024</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#AXCT412564433205-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080666593956 '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#AXCT412564433205-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080666593956 </td>
+
+
+
+<td class="ar" align="right">
+10,400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,53,931.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/05/2024">
+
+<td class="ar" align="center"  width="10">
+06/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 449350850415, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1wo98z5g2w@paytm,REF NO - 449350850415, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+69.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,53,862.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=69.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="07/05/2024">
+
+<td class="ar" align="center"  width="10">
+07/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 449455598806, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsyp0shddyy@paytm,REF NO - 449455598806, Lunch </td>
+
+
+
+<td class="ar" align="right">
+60.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,53,802.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=60.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="08/05/2024">
+
+<td class="ar" align="center"  width="10">
+08/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 449502749619, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 449502749619, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="08/05/2024">
+
+<td class="ar" align="center"  width="10">
+08/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX3731, Rent for April 2024 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX3731, Rent for April 2024 </td>
+
+
+
+<td class="ar" align="right">
+9,946.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,43,806.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9946.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/05/2024">
+
+<td class="ar" align="center"  width="10">
+09/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413076424901, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413076424901, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+90.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,43,716.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=90.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/05/2024">
+
+<td class="ar" align="center"  width="10">
+10/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413146958709, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413146958709, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/05/2024">
+
+<td class="ar" align="center"  width="10">
+10/05/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:382004337                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:382004337                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+781.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=781.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/05/2024">
+
+<td class="ar" align="center"  width="10">
+10/05/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:382004227                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:382004227                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+24,268.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=24268.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/05/2024">
+
+<td class="ar" align="center"  width="10">
+10/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1017cibv2ceufxv@paytm,REF NO - 413112089432, Bike tyre repair '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1017cibv2ceufxv@paytm,REF NO - 413112089432, Bike tyre repair </td>
+
+
+
+<td class="ar" align="right">
+400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,18,237.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/05/2024">
+
+<td class="ar" align="center"  width="10">
+13/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To boim -XXXXXXXX0904@boi,REF NO - 413315695225, Merchant 20QR '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To boim -XXXXXXXX0904@boi,REF NO - 413315695225, Merchant 20QR </td>
+
+
+
+<td class="ar" align="right">
+105.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=105.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/05/2024">
+
+<td class="ar" align="center"  width="10">
+13/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 413457835703, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 413457835703, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+45.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=45.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/05/2024">
+
+<td class="ar" align="center"  width="10">
+13/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450017732027, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450017732027, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+80.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=80.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/05/2024">
+
+<td class="ar" align="center"  width="10">
+13/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 413424223081, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 413424223081, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+30.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,17,977.12
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=30.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/05/2024">
+
+<td class="ar" align="center"  width="10">
+14/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413517567561, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413517567561, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/05/2024">
+
+<td class="ar" align="center"  width="10">
+14/05/2024</td>
+
+<input type=hidden name=descval value='Payment for Credit Card No. 5546XXX2XXXX4839 DEBAJYOTI DUTTA '>
+
+<td class="ar" height="55">
+Payment for Credit Card No. 5546XXX2XXXX4839 DEBAJYOTI DUTTA </td>
+
+
+
+<td class="ar" align="right">
+1,384.58
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1384.58>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/05/2024">
+
+<td class="ar" align="center"  width="10">
+14/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1vyeyycxwi@paytm,REF NO - 413579138271, Bike petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1vyeyycxwi@paytm,REF NO - 413579138271, Bike petrol </td>
+
+
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/05/2024">
+
+<td class="ar" align="center"  width="10">
+14/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrlnnd390c08@paytm,REF NO - 413562825425, Vegetables '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrlnnd390c08@paytm,REF NO - 413562825425, Vegetables </td>
+
+
+
+<td class="ar" align="right">
+168.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,15,874.54
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=168.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/05/2024">
+
+<td class="ar" align="center"  width="10">
+15/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413637216201, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 413637216201, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="15/05/2024">
+
+<td class="ar" align="center"  width="10">
+15/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450223637171, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450223637171, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+80.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,15,744.54
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=80.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/05/2024">
+
+<td class="ar" align="center"  width="10">
+20/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrlh54ixw3qz@paytm,REF NO - 414096288036, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrlh54ixw3qz@paytm,REF NO - 414096288036, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+125.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=125.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/05/2024">
+
+<td class="ar" align="center"  width="10">
+20/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414019154828, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414019154828, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+58.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=58.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/05/2024">
+
+<td class="ar" align="center"  width="10">
+20/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrc5fo57nzle@paytm,REF NO - 414045316544, Hair saloon '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrc5fo57nzle@paytm,REF NO - 414045316544, Hair saloon </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/05/2024">
+
+<td class="ar" align="center"  width="10">
+20/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450775865122, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 450775865122, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+51.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=51.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/05/2024">
+
+<td class="ar" align="center"  width="10">
+20/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 414136381226, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 414136381226, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+82.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,15,228.54
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=82.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="21/05/2024">
+
+<td class="ar" align="center"  width="10">
+21/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bhartiairtel.rzp@sbi,REF NO - XXXXXXXX2823, AirtelDirectUPIPostpaid '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bhartiairtel.rzp@sbi,REF NO - XXXXXXXX2823, AirtelDirectUPIPostpaid </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="21/05/2024">
+
+<td class="ar" align="center"  width="10">
+21/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414253936141, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414253936141, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+97.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=97.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="21/05/2024">
+
+<td class="ar" align="center"  width="10">
+21/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrrgw37e1ak0@paytm,REF NO - 414269203497, Curd '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrrgw37e1ak0@paytm,REF NO - 414269203497, Curd </td>
+
+
+
+<td class="ar" align="right">
+72.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,14,470.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=72.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/05/2024">
+
+<td class="ar" align="center"  width="10">
+23/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 414485777404, DPS JOKA SCHOOL FEES '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 414485777404, DPS JOKA SCHOOL FEES </td>
+
+
+
+<td class="ar" align="right">
+11,320.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=11320.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/05/2024">
+
+<td class="ar" align="center"  width="10">
+23/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrszw2mnbb14@paytm,REF NO - 414493036663, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrszw2mnbb14@paytm,REF NO - 414493036663, Lunch </td>
+
+
+
+<td class="ar" align="right">
+140.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=140.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="23/05/2024">
+
+<td class="ar" align="center"  width="10">
+23/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To gpay -XXXXXXX5749@okbizaxis,REF NO - 414404226420, NA '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To gpay -XXXXXXX5749@okbizaxis,REF NO - 414404226420, NA </td>
+
+
+
+<td class="ar" align="right">
+35.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,02,975.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=35.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/05/2024">
+
+<td class="ar" align="center"  width="10">
+24/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 414555597677, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9377@ybl,REF NO - 414555597677, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+55.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=55.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/05/2024">
+
+<td class="ar" align="center"  width="10">
+24/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 414585774403, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 414585774403, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+82.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=82.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/05/2024">
+
+<td class="ar" align="center"  width="10">
+24/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414548365942, Verified Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BHARATPE.XXXXXX3946@icici,REF NO - 414548365942, Verified Merchant </td>
+
+
+
+<td class="ar" align="right">
+54.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,02,784.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=54.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="27/05/2024">
+
+<td class="ar" align="center"  width="10">
+27/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX3538@ybl,REF NO - 414609229794, NA '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX3538@ybl,REF NO - 414609229794, NA </td>
+
+
+
+<td class="ar" align="right">
+130.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=130.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="27/05/2024">
+
+<td class="ar" align="center"  width="10">
+27/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To ppr.X0650.03062023.00034987@cnrb,REF NO - 414673906155, Tea '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To ppr.X0650.03062023.00034987@cnrb,REF NO - 414673906155, Tea </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="27/05/2024">
+
+<td class="ar" align="center"  width="10">
+27/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 451423617991, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 451423617991, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+51.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,02,553.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=51.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="28/05/2024">
+
+<td class="ar" align="center"  width="10">
+28/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 414932258219, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 414932258219, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+82.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=82.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="28/05/2024">
+
+<td class="ar" align="center"  width="10">
+28/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 451512559922, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 451512559922, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+82.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,02,389.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=82.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/05/2024">
+
+<td class="ar" align="center"  width="10">
+29/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 415054802739, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 415054802739, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+51.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,02,338.72
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=51.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="30/05/2024">
+
+<td class="ar" align="center"  width="10">
+30/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX2828, Payment from PhonePe '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX2828, Payment from PhonePe </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,01,749.90
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="31/05/2024">
+
+<td class="ar" align="center"  width="10">
+31/05/2024</td>
+
+<input type=hidden name=descval value='NEFT INWARD                                                 NEFT IN UTR CITIN24476291043 FROM CBA SERVICES PRIVATE LIMI N152243064462228T Remitter Address 1Remitter Address 2Remitter Address 3Remitter Address 4 HDFC BANK '>
+
+<td class="ar" height="55">
+NEFT INWARD                                                 NEFT IN UTR CITIN24476291043 FROM CBA SERVICES PRIVATE LIMI N152243064462228T Remitter Address 1Remitter Address 2Remitter Address 3Remitter Address 4 HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+1,99,749.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=199749.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="31/05/2024">
+
+<td class="ar" align="center"  width="10">
+31/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX4621@ybl,REF NO - 415226077450, lassi '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX4621@ybl,REF NO - 415226077450, lassi </td>
+
+
+
+<td class="ar" align="right">
+40.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=40.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="31/05/2024">
+
+<td class="ar" align="center"  width="10">
+31/05/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX6408@ybl,REF NO - 415256974179, Bike petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX6408@ybl,REF NO - 415256974179, Bike petrol </td>
+
+
+
+<td class="ar" align="right">
+300.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+11,01,158.90
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=300.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To ELITEFOOTWEARBEHALA.XXXX8906@hdfcbank,REF NO - 415404903081, Leather belt '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To ELITEFOOTWEARBEHALA.XXXX8906@hdfcbank,REF NO - 415404903081, Leather belt </td>
+
+
+
+<td class="ar" align="right">
+599.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=599.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrsp5dub1716@paytm,REF NO - 415431560206, Wrist watch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrsp5dub1716@paytm,REF NO - 415431560206, Wrist watch </td>
+
+
+
+<td class="ar" align="right">
+1,650.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1650.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXX0991@ybl,REF NO - 415513008925, Medicine '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXX0991@ybl,REF NO - 415513008925, Medicine </td>
+
+
+
+<td class="ar" align="right">
+220.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=220.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bookmyshow@axb,REF NO - XXXXXXXX7289, Payment from PhonePe '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bookmyshow@axb,REF NO - XXXXXXXX7289, Payment from PhonePe </td>
+
+
+
+<td class="ar" align="right">
+473.10
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=473.10>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX4792@ybl,REF NO - 415537160387, biriyani '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX4792@ybl,REF NO - 415537160387, biriyani </td>
+
+
+
+<td class="ar" align="right">
+250.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=250.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To pappuasoka@okicici,REF NO - XXXXXXXX2435, Popcorn and cold drinks '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To pappuasoka@okicici,REF NO - XXXXXXXX2435, Popcorn and cold drinks </td>
+
+
+
+<td class="ar" align="right">
+240.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=240.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX5038@ybl,REF NO - 415523161655, Car petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX5038@ybl,REF NO - 415523161655, Car petrol </td>
+
+
+
+<td class="ar" align="right">
+2,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=2000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXX0991@ybl,REF NO - 415579244886, Medicine '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXX0991@ybl,REF NO - 415579244886, Medicine </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/06/2024">
+
+<td class="ar" align="center"  width="10">
+03/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX7258@ybl,REF NO - 415538344004, tea '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX7258@ybl,REF NO - 415538344004, tea </td>
+
+
+
+<td class="ar" align="right">
+18.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,95,508.80
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=18.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#AXCT415665775413-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080667013070 '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#AXCT415665775413-DEBAJYOTI DUTTA -OT -XXXXXXX6841 -STATE BANK OF INDIA -BANGALORE -ELECTRONIC CITY, BANGALORE -REF NO#090080667013070 </td>
+
+
+
+<td class="ar" align="right">
+10,400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX9866@ybl,REF NO - 415642397457, Bike battery recharge '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX9866@ybl,REF NO - 415642397457, Bike battery recharge </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@ibl,REF NO - 415614588346, Household expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@ibl,REF NO - 415614588346, Household expenses </td>
+
+
+
+<td class="ar" align="right">
+12,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415686419526, Family expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415686419526, Family expenses </td>
+
+
+
+<td class="ar" align="right">
+12,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415677346463, For Pakhee '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415677346463, For Pakhee </td>
+
+
+
+<td class="ar" align="right">
+10,675.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10675.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415623732212, Piyu personal expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 415623732212, Piyu personal expenses </td>
+
+
+
+<td class="ar" align="right">
+5,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqryvk922m79d@paytm,REF NO - 415641912745, amul lassi '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqryvk922m79d@paytm,REF NO - 415641912745, amul lassi </td>
+
+
+
+<td class="ar" align="right">
+80.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=80.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqr1ltrsaltc4@paytm,REF NO - 415641952623, evening snacks '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqr1ltrsaltc4@paytm,REF NO - 415641952623, evening snacks </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="04/06/2024">
+
+<td class="ar" align="center"  width="10">
+04/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 415673479405, OD331436919097320100 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 415673479405, OD331436919097320100 </td>
+
+
+
+<td class="ar" align="right">
+46,048.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,98,055.80
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=46048.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/06/2024">
+
+<td class="ar" align="center"  width="10">
+05/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To LENSKARTOFFLINE@ybl,REF NO - XXXXXXXX1982, Lenskart for Piyu and Pakhee '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To LENSKARTOFFLINE@ybl,REF NO - XXXXXXXX1982, Lenskart for Piyu and Pakhee </td>
+
+
+
+<td class="ar" align="right">
+12,035.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,86,020.80
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12035.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/06/2024">
+
+<td class="ar" align="center"  width="10">
+06/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX6504@ybl,REF NO - 415846949133, passport photo '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX6504@ybl,REF NO - 415846949133, passport photo </td>
+
+
+
+<td class="ar" align="right">
+80.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=80.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/06/2024">
+
+<td class="ar" align="center"  width="10">
+06/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrml4r17qmhl@paytm,REF NO - 415847004095, NA '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrml4r17qmhl@paytm,REF NO - 415847004095, NA </td>
+
+
+
+<td class="ar" align="right">
+613.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=613.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/06/2024">
+
+<td class="ar" align="center"  width="10">
+06/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrml4r17qmhl@paytm,REF NO - 452405514324, bakery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrml4r17qmhl@paytm,REF NO - 452405514324, bakery </td>
+
+
+
+<td class="ar" align="right">
+60.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=60.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/06/2024">
+
+<td class="ar" align="center"  width="10">
+06/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXX9847@ybl,REF NO - 415886516671, Power bank and mobile screen protector '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXX9847@ybl,REF NO - 415886516671, Power bank and mobile screen protector </td>
+
+
+
+<td class="ar" align="right">
+3,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=3000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/06/2024">
+
+<td class="ar" align="center"  width="10">
+06/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX2821@ybl,REF NO - 415861371678, Fish '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX2821@ybl,REF NO - 415861371678, Fish </td>
+
+
+
+<td class="ar" align="right">
+250.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,82,017.80
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=250.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="07/06/2024">
+
+<td class="ar" align="center"  width="10">
+07/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX8298@ybl,REF NO - 415951375260, Mobile cover '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX8298@ybl,REF NO - 415951375260, Mobile cover </td>
+
+
+
+<td class="ar" align="right">
+250.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=250.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="07/06/2024">
+
+<td class="ar" align="center"  width="10">
+07/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX5583@ybl,REF NO - 415953648501, Mobile tempered glass '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX5583@ybl,REF NO - 415953648501, Mobile tempered glass </td>
+
+
+
+<td class="ar" align="right">
+100.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,81,667.80
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=100.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX1039@ybl,REF NO - 416034720656, Scooter Petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX1039@ybl,REF NO - 416034720656, Scooter Petrol </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX5923@paytm,REF NO - 416002015433, Wrist watch battery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX5923@paytm,REF NO - 416002015433, Wrist watch battery </td>
+
+
+
+<td class="ar" align="right">
+260.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=260.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX9407@ybl,REF NO - 416025309718, Restaurant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX9407@ybl,REF NO - 416025309718, Restaurant </td>
+
+
+
+<td class="ar" align="right">
+1,271.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1271.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX6504@ybl,REF NO - 416062108376, BEd Print out '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX6504@ybl,REF NO - 416062108376, BEd Print out </td>
+
+
+
+<td class="ar" align="right">
+190.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=190.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To qXXXXX2934@ybl,REF NO - 416054659766, Gold Flake '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To qXXXXX2934@ybl,REF NO - 416054659766, Gold Flake </td>
+
+
+
+<td class="ar" align="right">
+85.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=85.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To ka57f0998@cnrb,REF NO - 416157861200, Pay to Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To ka57f0998@cnrb,REF NO - 416157861200, Pay to Merchant </td>
+
+
+
+<td class="ar" align="right">
+240.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=240.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bharatpeXXXXXXX0758@yesbankltd,REF NO - 416158152728, Pay to BharatPe Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bharatpeXXXXXXX0758@yesbankltd,REF NO - 416158152728, Pay to BharatPe Merchant </td>
+
+
+
+<td class="ar" align="right">
+90.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=90.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX4977, Rent for May 2024 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX4977, Rent for May 2024 </td>
+
+
+
+<td class="ar" align="right">
+9,959.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9959.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101jasil572oo5x@paytm,REF NO - 416201214970, Breakfast '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101jasil572oo5x@paytm,REF NO - 416201214970, Breakfast </td>
+
+
+
+<td class="ar" align="right">
+55.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=55.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:385122597                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:385122597                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+781.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=781.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:385122488                      -HDFC BANK '>
+
+<td class="ar" height="55">
+INTERCITY ECS PAID                                          NACH:Paid to HDFC BANK LTD:HDFC01651000012196:HDFC BANK LTD Refno:385122488                      -HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+24,268.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=24268.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrtz83a7oeck@paytm,REF NO - 452811124179, lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrtz83a7oeck@paytm,REF NO - 452811124179, lunch </td>
+
+
+
+<td class="ar" align="right">
+153.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=153.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To gedditconvenience.rzp@hdfcbank,REF NO - XXXXXXXX5122, home '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To gedditconvenience.rzp@hdfcbank,REF NO - XXXXXXXX5122, home </td>
+
+
+
+<td class="ar" align="right">
+373.32
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=373.32>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="10/06/2024">
+
+<td class="ar" align="center"  width="10">
+10/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To airtelcommonpool@mairtel,REF NO - XXXXXXXX9885, Payment from Airtel ThanksApp '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To airtelcommonpool@mairtel,REF NO - XXXXXXXX9885, Payment from Airtel ThanksApp </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,43,153.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="11/06/2024">
+
+<td class="ar" align="center"  width="10">
+11/06/2024</td>
+
+<input type=hidden name=descval value='NEFT INWARD                                                 NEFT IN UTR CITIN24481042857 FROM CBA SERVICES PRIVATE LIMI N163243088197234T NO 1000 NO 2000 NO 4000 WEWORK NXTTOWER 1 MANYATA TECH PARK ROADTHANISANDRA HDFC BANK '>
+
+<td class="ar" height="55">
+NEFT INWARD                                                 NEFT IN UTR CITIN24481042857 FROM CBA SERVICES PRIVATE LIMI N163243088197234T NO 1000 NO 2000 NO 4000 WEWORK NXTTOWER 1 MANYATA TECH PARK ROADTHANISANDRA HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="11/06/2024">
+
+<td class="ar" align="center"  width="10">
+11/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101o0t5qy14j3eb@paytm,REF NO - 416320293475, Medicine for cold '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101o0t5qy14j3eb@paytm,REF NO - 416320293475, Medicine for cold </td>
+
+
+
+<td class="ar" align="right">
+255.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,43,487.48
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=255.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/06/2024">
+
+<td class="ar" align="center"  width="10">
+12/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453054029774, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453054029774, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+113.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=113.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/06/2024">
+
+<td class="ar" align="center"  width="10">
+12/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm.s10v5th@pty,REF NO - 416477993151, Bakery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm.s10v5th@pty,REF NO - 416477993151, Bakery </td>
+
+
+
+<td class="ar" align="right">
+40.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,43,334.48
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=40.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/06/2024">
+
+<td class="ar" align="center"  width="10">
+13/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 453066960867, DPS School fees for 2024 July '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To delhipublicschoolfee.XXXX8734@hdfcbank,REF NO - 453066960867, DPS School fees for 2024 July </td>
+
+
+
+<td class="ar" align="right">
+5,400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/06/2024">
+
+<td class="ar" align="center"  width="10">
+13/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453162177079, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453162177079, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+82.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=82.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/06/2024">
+
+<td class="ar" align="center"  width="10">
+13/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bharatpeXXXXXXX5085@yesbankltd,REF NO - 416571395904, Pay to BharatPe Merchant '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bharatpeXXXXXXX5085@yesbankltd,REF NO - 416571395904, Pay to BharatPe Merchant </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,37,802.48
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/06/2024">
+
+<td class="ar" align="center"  width="10">
+14/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101jasil572oo5x@paytm,REF NO - 453281434368, Lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXX0101jasil572oo5x@paytm,REF NO - 453281434368, Lunch </td>
+
+
+
+<td class="ar" align="right">
+60.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=60.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="14/06/2024">
+
+<td class="ar" align="center"  width="10">
+14/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To bhartiairtel.rzp@sbi,REF NO - XXXXXXXX5904, AirtelDirectUPIPostpaid '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To bhartiairtel.rzp@sbi,REF NO - XXXXXXXX5904, AirtelDirectUPIPostpaid </td>
+
+
+
+<td class="ar" align="right">
+470.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,37,271.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=470.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/06/2024">
+
+<td class="ar" align="center"  width="10">
+17/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To mrs.bidishadutta@okaxis,REF NO - XXXXXXXX9786, UPI '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To mrs.bidishadutta@okaxis,REF NO - XXXXXXXX9786, UPI </td>
+
+
+
+<td class="ar" align="right">
+12,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/06/2024">
+
+<td class="ar" align="center"  width="10">
+17/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To olamoney1.rzp@axisbank,REF NO - 416861121403, Pay via Razorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To olamoney1.rzp@axisbank,REF NO - 416861121403, Pay via Razorpay </td>
+
+
+
+<td class="ar" align="right">
+784.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=784.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/06/2024">
+
+<td class="ar" align="center"  width="10">
+17/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453543977855, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453543977855, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+62.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=62.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="17/06/2024">
+
+<td class="ar" align="center"  width="10">
+17/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453558480934, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453558480934, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+102.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,23,823.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=102.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="18/06/2024">
+
+<td class="ar" align="center"  width="10">
+18/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 417012633178, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 417012633178, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+118.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=118.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="18/06/2024">
+
+<td class="ar" align="center"  width="10">
+18/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011dn1inx1km8p@paytm,REF NO - 417086695194, evening snacks '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytmqrXXXXXXXXX1011dn1inx1km8p@paytm,REF NO - 417086695194, evening snacks </td>
+
+
+
+<td class="ar" align="right">
+50.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,23,655.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=50.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/06/2024">
+
+<td class="ar" align="center"  width="10">
+19/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453753261794, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453753261794, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+51.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=51.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/06/2024">
+
+<td class="ar" align="center"  width="10">
+19/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX9866@ybl,REF NO - 417168885483, Scooty servicing and parts change '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX9866@ybl,REF NO - 417168885483, Scooty servicing and parts change </td>
+
+
+
+<td class="ar" align="right">
+1,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/06/2024">
+
+<td class="ar" align="center"  width="10">
+19/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To krishnamraju.sysadm@okhdfcbank,REF NO - XXXXXXXX9140, Birthday celebration '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To krishnamraju.sysadm@okhdfcbank,REF NO - XXXXXXXX9140, Birthday celebration </td>
+
+
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/06/2024">
+
+<td class="ar" align="center"  width="10">
+19/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX9593@paytm,REF NO - 417116627284, Bike petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX9593@paytm,REF NO - 417116627284, Bike petrol </td>
+
+
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="19/06/2024">
+
+<td class="ar" align="center"  width="10">
+19/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 453737810830, OidPZT2406191917RU1NG01@FlipkartInternetPrivateLim '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 453737810830, OidPZT2406191917RU1NG01@FlipkartInternetPrivateLim </td>
+
+
+
+<td class="ar" align="right">
+2,066.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,19,038.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=2066.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/06/2024">
+
+<td class="ar" align="center"  width="10">
+20/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 417241610254, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodteXX5357.rzp@axisbank,REF NO - 417241610254, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+51.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=51.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="20/06/2024">
+
+<td class="ar" align="center"  width="10">
+20/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453829916988, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 453829916988, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+102.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,18,885.66
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=102.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/06/2024">
+
+<td class="ar" align="center"  width="10">
+24/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kuntal.prakash -1@okicici,REF NO - 454019312961, Lunch and Dinner June 21st 2024 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kuntal.prakash -1@okicici,REF NO - 454019312961, Lunch and Dinner June 21st 2024 </td>
+
+
+
+<td class="ar" align="right">
+320.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=320.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/06/2024">
+
+<td class="ar" align="center"  width="10">
+24/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To amazonpaybalanceload@yapl,REF NO - XXXXXXXX6551, You are paying for an Amazon order '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To amazonpaybalanceload@yapl,REF NO - XXXXXXXX6551, You are paying for an Amazon order </td>
+
+
+
+<td class="ar" align="right">
+1,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/06/2024">
+
+<td class="ar" align="center"  width="10">
+24/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX0784@paytm,REF NO - 490735809479, Oidgeddit538BBHRP111351@GEDDITCONVENIENCEPRIVATELI '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX0784@paytm,REF NO - 490735809479, Oidgeddit538BBHRP111351@GEDDITCONVENIENCEPRIVATELI </td>
+
+
+
+<td class="ar" align="right">
+512.59
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=512.59>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="24/06/2024">
+
+<td class="ar" align="center"  width="10">
+24/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To pradeepkpX4081@okicici,REF NO - 454205220487, Food delivery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To pradeepkpX4081@okicici,REF NO - 454205220487, Food delivery </td>
+
+
+
+<td class="ar" align="right">
+77.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,16,976.07
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=77.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/06/2024">
+
+<td class="ar" align="center"  width="10">
+25/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX6765@okbizaxis,REF NO - 417712767383, stationaries '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX6765@okbizaxis,REF NO - 417712767383, stationaries </td>
+
+
+
+<td class="ar" align="right">
+220.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=220.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/06/2024">
+
+<td class="ar" align="center"  width="10">
+25/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm.s10v5th@pty,REF NO - 454364160143, bakery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm.s10v5th@pty,REF NO - 454364160143, bakery </td>
+
+
+
+<td class="ar" align="right">
+38.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=38.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="25/06/2024">
+
+<td class="ar" align="center"  width="10">
+25/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To MABXXX0476A0194725@Yesbank,REF NO - 417720154773, Restaurant lunch '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To MABXXX0476A0194725@Yesbank,REF NO - 417720154773, Restaurant lunch </td>
+
+
+
+<td class="ar" align="right">
+305.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+9,16,413.07
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=305.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="28/06/2024">
+
+<td class="ar" align="center"  width="10">
+28/06/2024</td>
+
+<input type=hidden name=descval value='NEFT INWARD                                                 NEFT IN UTR CITIN24488401136 FROM CBA SERVICES PRIVATE LIMI N180243115932089T CONSOLIDATED ACCOUNT ENTRY CBX 08HDFC BANK HOUSESANDOZ HOUSEMUMBAI,MAHARASHTRA,400018 HDFC BANK '>
+
+<td class="ar" height="55">
+NEFT INWARD                                                 NEFT IN UTR CITIN24488401136 FROM CBA SERVICES PRIVATE LIMI N180243115932089T CONSOLIDATED ACCOUNT ENTRY CBX 08HDFC BANK HOUSESANDOZ HOUSEMUMBAI,MAHARASHTRA,400018 HDFC BANK </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+1,83,925.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=183925.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="28/06/2024">
+
+<td class="ar" align="center"  width="10">
+28/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 418000506462, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 418000506462, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+102.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+11,00,236.07
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=102.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/06/2024">
+
+<td class="ar" align="center"  width="10">
+29/06/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX9478, Payment from PhonePe '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To BBPSBP@ybl,REF NO - XXXXXXXX9478, Payment from PhonePe </td>
+
+
+
+<td class="ar" align="right">
+588.82
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=588.82>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="29/06/2024">
+
+<td class="ar" align="center"  width="10">
+29/06/2024</td>
+
+<input type=hidden name=descval value='Interest Earned during the Period: 01APR2024 - 30JUN2024 for Savings account '>
+
+<td class="ar" height="55">
+Interest Earned during the Period: 01APR2024 - 30JUN2024 for Savings account </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+6,926.00
+</td>
+
+<td class="ar" align="right">
+
+11,06,573.25
+
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=6926.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 418363338887, OD331662868981632100 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 418363338887, OD331662868981632100 </td>
+
+
+
+<td class="ar" align="right">
+2,085.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=2085.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 418394537580, OD331662916445390100 '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To paytm -XXXX5013@paytm,REF NO - 418394537580, OD331662916445390100 </td>
+
+
+
+<td class="ar" align="right">
+624.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=624.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To QXXXXX5658@ybl,REF NO - 418358859225, SANTRO Car service '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To QXXXXX5658@ybl,REF NO - 418358859225, SANTRO Car service </td>
+
+
+
+<td class="ar" align="right">
+5,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To mobikwikaddmoney@icici,REF NO - XXXXXXXX3546, NA '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To mobikwikaddmoney@icici,REF NO - XXXXXXXX3546, NA </td>
+
+
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kuntal.prakash -1@okicici,REF NO - 454911150889, Food home delivery '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kuntal.prakash -1@okicici,REF NO - 454911150889, Food home delivery </td>
+
+
+
+<td class="ar" align="right">
+1,750.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1750.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418395105115, Household expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418395105115, Household expenses </td>
+
+
+
+<td class="ar" align="right">
+12,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418386375640, Family expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418386375640, Family expenses </td>
+
+
+
+<td class="ar" align="right">
+12,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=12000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418359846203, For Pakhee '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418359846203, For Pakhee </td>
+
+
+
+<td class="ar" align="right">
+10,675.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=10675.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="01/07/2024">
+
+<td class="ar" align="center"  width="10">
+01/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418313388189, Piyu personal expenses '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX2723@axl,REF NO - 418313388189, Piyu personal expenses </td>
+
+
+
+<td class="ar" align="right">
+5,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,55,939.25
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=5500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/07/2024">
+
+<td class="ar" align="center"  width="10">
+02/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 455001009434, PayviaRazorpay '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To kinematicfoodte468.rzp@icici,REF NO - 455001009434, PayviaRazorpay </td>
+
+
+
+<td class="ar" align="right">
+92.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=92.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/07/2024">
+
+<td class="ar" align="center"  width="10">
+02/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To XXXXXX4102@ybl,REF NO - 418433206803, Car 4775 petrol '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To XXXXXX4102@ybl,REF NO - 418433206803, Car 4775 petrol </td>
+
+
+
+<td class="ar" align="right">
+1,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,54,847.25
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=1000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/07/2024">
+
+<td class="ar" align="center"  width="10">
+03/07/2024</td>
+
+<input type=hidden name=descval value='IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX4330, NA '>
+
+<td class="ar" height="55">
+IMPS OUTWARD ORG                                            UPI To antonydsouzam@okicici,REF NO - XXXXXXXX4330, NA </td>
+
+
+
+<td class="ar" align="right">
+9,848.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+10,44,999.25
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9848.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td height="1" width="70"></td>
+<td height="1" width="280"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+</tr>
+
+
+
+<tr>
+<td class="ar" align="center" bgcolor="#CCCCCC"><b>&nbsp;</b></td>
+
+<td class="ar" align="center" bgcolor="#CCCCCC"><b>Total</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>5,48,181.31</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>5,68,884.12</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>10,44,999.25</b></td>
+
+</tr>
+</table>
+
+
+
+
+</table>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td height="1" width="18%"></td>
+		<td height="1" width="68%"></td>
+		<td height="1" width="14%"></td>
+	</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td height="1" width="18%"></td>
+		<td height="1" width="68%"></td>
+		<td height="1" width="14%"></td>
+	</tr>
+
+
+
+
+
+
+<input type=hidden name=hidaccinfo value="">
+<input type=hidden name=fromdate value="">
+<input type=hidden name=todate value="">
+<input type=hidden name=codeType value="">
+</form>
+
+</body>
+</html>
+
+
+

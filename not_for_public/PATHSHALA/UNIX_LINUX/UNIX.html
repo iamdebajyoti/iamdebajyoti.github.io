@@ -1,0 +1,30 @@
+<h2>&quot;ls&quot; command output 4-digit year</h2>
+<blockquote>
+<p><strong>In bash -</strong></p>
+<p>Displays the date and time in YYYY-MM-DD HH:MM format for all files, ensuring the 4-digit year is always present.</p>
+<pre><code>ls -l --time-style=long-iso
+</code></pre>
+<h4>Full ISO 8601 format:</h4>
+<pre><code>ls -l --time-style=full-iso
+</code></pre>
+<h4>Custom Format (4-digit year + time):</h4>
+<pre><code>ls -l --time-style=+&quot;%Y-%m-%d %H:%M:%S&quot;
+ls -ld --time-style=+&quot;%Y-%m-%d-%H-%M-%S&quot;
+</code></pre>
+<h4>Using stat (If ls options are not supported):</h4>
+<pre><code>stat -c &quot;%y %n&quot; *
+stat -c &quot;%y %N&quot; *
+</code></pre>
+<h5>By default, ls -l shows Month Day Time for files within the last six months, and Month Day Year for older files.</h5>
+<h5>The --time-style options work on GNU ls, but often fail on FreeBSD, Solaris, or older AIX implementations.</h5>
+</blockquote>
+<pre><code>$  ls -l --time-style=
+ls: ambiguous argument ‘’ for ‘time style’
+Valid arguments are:
+  - [posix-]full-iso
+  - [posix-]long-iso
+  - [posix-]iso
+  - [posix-]locale
+  - +FORMAT (e.g., +%H:%M) for a 'date'-style format
+Try 'ls --help' for more information.
+</code></pre>
