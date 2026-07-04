@@ -39,3 +39,70 @@ Recommended Solutions
 
 
 https://share.google/aimode/l09mXnzjQ0bDUjUOB
+
+### ibm mq add multiple CN to channel SSLPEER 
+[solution from From Google AI](https://share.google/aimode/yw7sZyHnsnUx2Gbgs)
+
+
+# QUICK TIPS
+## MQ Command strings
+
+
+### To list ONLY the queue manager names
+```
+dspmq | awk -F "(" '{ print $2 }' | awk -F ")" '{ print $1 }'
+```
+
+### LINUX - Failover / Fallback (PTH)
+```
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; dspmq | grep -i -e NPT301 -e PGT301 -e EVT301
+. /opt/mqmv9/v93037/bin/setmqenv -s -k
+endmqm -s NPT301
+endmqm -s PGT301
+endmqm -s EVT301
+sleep 60
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; echo "Failover Cluster 1"; echo; dspmq | grep -i -e NPT301 -e PGT301 -e EVT301
+```
+```
+sleep 400
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; dspmq | grep -i -e NPT301 -e PGT301 -e EVT301
+. /opt/mqmv9/v93037/bin/setmqenv -s -k
+endmqm -s NPT301
+endmqm -s PGT301
+endmqm -s EVT301
+sleep 60
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; echo "Failback Cluster 1"; echo; dspmq | grep -i -e NPT301 -e PGT301 -e EVT301
+```
+=========================================================================================================================================
+```
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; dspmq | grep -i -e NPT302 -e PGT302 -e EVT302;
+. /opt/mqmv9/v93037/bin/setmqenv -s -k;
+endmqm -s NPT302;
+endmqm -s PGT302;
+endmqm -s EVT302;
+sleep 60;
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; echo "Failover Cluster 2"; echo; dspmq | grep -i -e NPT302 -e PGT302 -e EVT302;
+echo;
+```
+```
+sleep 420;
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; dspmq | grep -i -e NPT302 -e PGT302 -e EVT302;
+. /opt/mqmv9/v93037/bin/setmqenv -s -k;
+endmqm -s NPT302;
+endmqm -s PGT302;
+endmqm -s EVT302;
+sleep 60;
+echo;  date +%F_%H-%M-%S-%A-%Z; echo; echo "Failback Cluster 2"; echo; dspmq | grep -i -e NPT302 -e PGT302 -e EVT302;
+echo;
+```
+
+### Extract QMGR installation info
+```
+# for single queue manager
+qmgr=""
+source $(dspmq -m ${qmgr} -o installation | awk '{ print $3 }' | cut -d "(" -f 2 | cut -d ")" -f 1)/bin/setmqenv -s -k
+
+# for multiple queue manager
+declare -a qmgrs=() # place the name of the queue managers separated by space
+source $(dspmq -m ${qmgr} -o installation | awk '{ print $3 }' | cut -d "(" -f 2 | cut -d ")" -f 1)/bin/setmqenv -s -k
+```
