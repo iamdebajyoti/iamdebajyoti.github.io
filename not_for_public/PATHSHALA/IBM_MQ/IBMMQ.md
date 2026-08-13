@@ -106,3 +106,85 @@ source $(dspmq -m ${qmgr} -o installation | awk '{ print $3 }' | cut -d "(" -f 2
 declare -a qmgrs=() # place the name of the queue managers separated by space
 source $(dspmq -m ${qmgr} -o installation | awk '{ print $3 }' | cut -d "(" -f 2 | cut -d ")" -f 1)/bin/setmqenv -s -k
 ```
+
+
+
+
+## Installing IBM MQ in AIX at /usr/mqm94
+1
+2
+3
+To install IBM MQ in AIX at a custom location like /usr/mqm94, follow these steps:
+
+1. Prepare the System
+
+Ensure you have root privileges or sufficient authority to perform the installation.
+
+Verify your AIX version is supported using:
+
+uname -a
+oslevel -s
+Copy
+Create the necessary group and user for MQ:
+
+mkgroup mqm
+mkuser -g mqm -d /home/mqm mqm
+passwd mqm
+Copy
+2. Extract Installation Files
+
+Download the IBM MQ installation package from IBM Passport Advantage or Fix Central.
+
+Decompress and extract the files:
+
+uncompress IBM_MQ_9.x_AIX.tar.Z
+tar -xvf IBM_MQ_9.x_AIX.tar
+Copy
+3. Create a Custom Installation Directory
+
+Create a User-Specified Installation Location (USIL) for /usr/mqm94:
+
+mkdir /usr/mqm94
+mkusil -R /usr/mqm94 -c "IBM MQ 9.x" -X
+Copy
+4. Install IBM MQ
+
+Navigate to the extracted installation directory:
+
+cd MQServer
+Copy
+Install IBM MQ in the custom directory:
+
+installp -R /usr/mqm94 -acgXYd . all
+Copy
+5. Set Primary Installation
+
+If this is the primary installation, set it using:
+
+/usr/mqm94/bin/setmqinst -i -p /usr/mqm94
+Copy
+6. Verify Installation
+
+Confirm the installation was successful:
+
+dspmqver -f 128
+Copy
+Check installed components:
+
+lslpp -R /usr/mqm94 -la "mqm*"
+Copy
+Best Practices
+
+Use setmqenv to configure environment variables for this installation.
+
+Always back up queue manager data before upgrades or changes.
+
+This process ensures a clean and efficient installation of IBM MQ in a non-default directory like /usr/mqm94.
+
+Learn more:
+1 -
+ibm.com
+2 -
+ibm.com
+3 -
+stackoverflow.com
